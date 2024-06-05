@@ -33,11 +33,25 @@
   - 答疑视频 https://space.bilibili.com/1036852626/channel/collectiondetail?sid=2017309
   - 帖子链接
 
-- **Electromagnetism**
+- **Classical Electrodynamics**
+  - 电子版课程笔记
+  - 答疑视频
+  - 帖子链接
+ 
+- **Quantum Mechanics**
   - 电子版课程笔记
   - 答疑视频
   - 帖子链接
 
+- **Group Theory**
+  - 电子版课程笔记
+  - 答疑视频
+  - 帖子链接
+
+- **Methematical Methods in Physics**
+  - 电子版课程笔记
+  - 答疑视频
+  - 帖子链接
 
 ### 💻 Computer Science
 - **Programming Fundamentals**
