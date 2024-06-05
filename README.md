@@ -1,3 +1,5 @@
+# <p align="center"><img src='./assets/agents-logo.png'  width=300> </p>
+## <p align="center" style="display:inline-block;"><font  face="Calisto MT"><font  size="4">An Open-source Framework for Autonomous Language Agents</font></font></p>
 # 📚 Peking University Undergraduate Courses Notes Repository
 
 这是一个主要面向物院同学的课程笔记互助分享平台~
