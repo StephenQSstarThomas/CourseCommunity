@@ -9,7 +9,7 @@
 
 
 - 谢佳芯 contributed to 地概整合版笔记
-- 牟玉书 contributed to 理力录制课程（B站合集）
+- 牟玉书 contributed to 理力录制课程（B站合集）个人留言：欢迎关注关注尾箕制氘匠（B站），后续会发布更多精彩内容~
 ---
 
 ## 📘 Courses and Notes
