@@ -15,7 +15,7 @@
 - ThomasYang contributed to 量子力学、量子力学专题、群论II、数理方法、电动力学、理论力学
 - Perry contributed to 非线性物理专题
 - 曾偲 contributed to 高等数学（A）
-- Qss contribute to 医学史
+- Qss contribute to 医学史、医学部马克思主义原理
 ---
 
 ## 📘 Courses and Notes
