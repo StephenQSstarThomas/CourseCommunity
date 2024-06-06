@@ -13,6 +13,7 @@
 - 谢佳芯 contributed to 地概整合版笔记
 - 牟玉书 contributed to 理力录制课程（B站合集）个人留言：欢迎关注关注尾箕制氘匠（B站），后续会发布更多精彩内容~
 - ThomasYang contributed to 量子力学、量子力学专题、群论II、数理方法、电动力学、理论力学
+- Perry contributed to 非线性物理专题
 ---
 
 ## 📘 Courses and Notes
@@ -70,9 +71,10 @@
 ## 📤 Contribution Guidelines
 
 欢迎所有同学贡献他们的笔记和资源！请将你的笔记按以下格式提交：
-1. 课程名称
+1. 课程名称（包含授课教师、选课时间）
 2. 资源类型（电子版课程笔记、答疑视频、帖子链接等）
 3. 你的姓名（将会被在首页致谢）
+#### Attention：单份笔记不超过25M，方便上传；若笔记过大请拆分处理
 
 ---
 
