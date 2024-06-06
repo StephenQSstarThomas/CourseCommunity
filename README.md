@@ -1,5 +1,5 @@
 # <p align="center"><img src='.assets/logo.png'  width=300> </p>
-## <p align="center" style="display:inline-block;"><font  face="Calisto MT"><font  size="5">📚 Peking University Undergraduate Courses Notes Repository</font></font></p>
+## <p align="center" style="display:inline-block;"><font  face="Calisto MT"><font  size="3">📚 Peking University Undergraduate Courses Notes Repository</font></font></p>
 
 这是一个主要面向物院同学的课程笔记互助分享平台~
 这个文件夹最终将包含各个课程的各类笔记，包含但不仅限于电子版课程笔记、自己做的答疑视频或者帖子链接等。
