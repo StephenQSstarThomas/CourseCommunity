@@ -16,7 +16,8 @@
 - Perry contributed to 非线性物理专题
 - 曾偲 contributed to 高等数学（A）
 - StephenQS contributed to 理论力学、普物实验、高等数学（A）、数理方法、地震概论、《庄子》精读、四书精读、光学
-- qFF's() contribute to 医学史、马克思主义原理（医学部）
+- qFF's() contributed to 医学史、马克思主义原理（医学部）
+- FurinaWai77 contributed to 可视化点群，个人主页 https://github.com/FurinaWai77 欢迎大家关注~ 
 ---
 
 ## 📘 Courses and Notes
