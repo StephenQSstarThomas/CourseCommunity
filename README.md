@@ -3,7 +3,7 @@
 
 这是一个主要面向物院同学的课程笔记互助分享平台~
 这个文件夹最终将包含各个课程的各类笔记，包含但不仅限于电子版课程笔记、自己做的答疑视频或者帖子链接等。
-### Repo creator: 仇是
+### Repo creator: 仇是(StephenQS)(Qss不是我！！！)
 
 ## 🌟 Acknowledgements
 
@@ -15,6 +15,7 @@
 - ThomasYang contributed to 量子力学、量子力学专题、群论II、数理方法、电动力学、理论力学
 - Perry contributed to 非线性物理专题
 - 曾偲 contributed to 高等数学（A）
+- Qss contribute to 医学史
 ---
 
 ## 📘 Courses and Notes
