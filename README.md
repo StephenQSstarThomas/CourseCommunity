@@ -89,6 +89,12 @@
   - 答疑视频
   - 帖子链接
 
+### 🏥 Medicine
+- **History of Medicine**
+  - 电子版课程笔记 √
+  - 答疑视频
+  - 帖子链接
+
 ### 📚 General Education Courses
 - **Introduction to Earthquakes**
   - 电子版课程笔记 √
