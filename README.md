@@ -21,6 +21,13 @@
 - Anonymous User_01 contributed to 中国古代文学史（三）、方言学、中国考古学（一）、社会人类学
 ---
 
+## 📢 What's New
+
+- 6.8 中国古代文学史（三）、方言学、中国考古学（一）、社会人类学 笔记发布
+- 6.8 
+
+---
+
 ## 📘 Courses and Notes
 
 ### 📐 Mathematics
