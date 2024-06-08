@@ -19,12 +19,13 @@
 - qFF's() contributed to 医学史、马克思主义原理（医学部）
 - FurinaWai77 contributed to 可视化点群，个人主页 https://github.com/FurinaWai77 欢迎大家关注~
 - Anonymous User_01 contributed to 中国古代文学史（三）、方言学、中国考古学（一）、社会人类学
+- St. Psalm contributed to 平衡态统计物理、理论力学、电动力学
 ---
 
 ## 📢 What's New
 
-- 6.8 中国古代文学史（三）、方言学、中国考古学（一）、社会人类学 笔记发布
-- 6.8 数理方法（dwz）往年题合集
+- 6.8 中国古代文学史（三）、方言学、中国考古学（一）、社会人类学 笔记发布；平统、电动、理力笔记更新； 
+- 
 
 ---
 
