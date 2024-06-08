@@ -1,8 +1,8 @@
 # <p align="center"><img src='.assets/logo_final.jpg'  width=300> </p>
 ## <p align="center" style="display:inline-block;"><font  face="Calisto MT"><font  size="3">📚 Peking University Undergraduate Courses Notes Repository</font></font></p>
 
-这是一个主要面向物院同学的课程笔记互助分享平台~
-这个文件夹最终将包含各个课程的各类笔记，包含但不仅限于电子版课程笔记、自己做的答疑视频或者帖子链接等。
+- 这是一个主要面向物院同学的课程笔记互助分享平台，目前笔记包括但不仅限于物理、中文、哲学、医学专业课，以及通选课等约20门课程的笔记
+- 这个文件夹最终将包含各个课程的各类笔记，包含但不仅限于电子版课程笔记、自己做的答疑视频或者帖子链接等。
 ### Repo creator: 仇是(StephenQS)
 #### Logo created by qFF's()
 ## 🌟 Acknowledgements
