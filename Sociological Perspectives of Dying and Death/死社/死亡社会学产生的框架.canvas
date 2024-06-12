@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"type":"text","text":"社会经济转型","id":"3acd43e2ce1d5543","x":-340,"y":-20,"width":165,"height":60},
+		{"type":"text","text":"人口转变","id":"30984bc958cf453d","x":-120,"y":-180,"width":125,"height":60},
+		{"type":"text","text":"健康转变","id":"2f48a745cb635d8b","x":-122,"y":-20,"width":130,"height":60},
+		{"type":"text","text":"工作和生活方式转变","id":"74c0df7e8a7bd999","x":-120,"y":120,"width":133,"height":60},
+		{"type":"text","text":"生育率下降","id":"dc3bdb905b6532e6","x":40,"y":-120,"width":146,"height":60},
+		{"type":"text","text":"死亡率下降","id":"c8d530dbbc63408c","x":40,"y":-240,"width":146,"height":60},
+		{"type":"text","text":"传染病下降","id":"32cf4f05fbaf4897","x":44,"y":-22,"width":142,"height":60},
+		{"type":"text","text":"健康危险因素的变化\n（营养、职业危害、生活方式等）","id":"58ab5d10dac5994e","x":119,"y":100,"width":261,"height":101},
+		{"type":"text","text":"预期寿命增加\n","id":"8cdfe6d072e3856e","x":289,"y":-240,"width":171,"height":60},
+		{"type":"text","text":"人口老龄化","id":"cc1f83aea5293240","x":289,"y":-120,"width":171,"height":60},
+		{"type":"text","text":"BD、慢性疾病意外伤害增加","id":"662a4608f7abfea3","x":292,"y":-20,"width":165,"height":60},
+		{"id":"1ef99b18db9c66be","x":-321,"y":-210,"width":128,"height":60,"type":"text","text":"[[死亡的社会学思考]]"}
+	],
+	"edges":[
+		{"id":"6b8264e976f4c25e","fromNode":"3acd43e2ce1d5543","fromSide":"right","toNode":"74c0df7e8a7bd999","toSide":"left"},
+		{"id":"47feb35e24e80aa0","fromNode":"3acd43e2ce1d5543","fromSide":"right","toNode":"2f48a745cb635d8b","toSide":"left"},
+		{"id":"93a29f3dd4e60417","fromNode":"3acd43e2ce1d5543","fromSide":"right","toNode":"30984bc958cf453d","toSide":"left"},
+		{"id":"f0d11fc213aa802c","fromNode":"30984bc958cf453d","fromSide":"right","toNode":"c8d530dbbc63408c","toSide":"left"},
+		{"id":"024dd891cb116c7a","fromNode":"30984bc958cf453d","fromSide":"right","toNode":"dc3bdb905b6532e6","toSide":"left"},
+		{"id":"a91a698649e9810a","fromNode":"2f48a745cb635d8b","fromSide":"right","toNode":"32cf4f05fbaf4897","toSide":"left"},
+		{"id":"f5fa95458fa656b1","fromNode":"74c0df7e8a7bd999","fromSide":"right","toNode":"58ab5d10dac5994e","toSide":"left"},
+		{"id":"4b9712a91ceaea05","fromNode":"c8d530dbbc63408c","fromSide":"right","toNode":"8cdfe6d072e3856e","toSide":"left"},
+		{"id":"be186c1816f5e5b0","fromNode":"dc3bdb905b6532e6","fromSide":"right","toNode":"cc1f83aea5293240","toSide":"left"},
+		{"id":"b365ab6a7cadb887","fromNode":"8cdfe6d072e3856e","fromSide":"bottom","toNode":"cc1f83aea5293240","toSide":"top"},
+		{"id":"a0a05af3af2e6495","fromNode":"c8d530dbbc63408c","fromSide":"right","toNode":"cc1f83aea5293240","toSide":"left"},
+		{"id":"4818238a39c5bce4","fromNode":"32cf4f05fbaf4897","fromSide":"right","toNode":"662a4608f7abfea3","toSide":"left"},
+		{"id":"1b0c879da059cd39","fromNode":"cc1f83aea5293240","fromSide":"bottom","toNode":"662a4608f7abfea3","toSide":"top"},
+		{"id":"567fa49e9442740f","fromNode":"3acd43e2ce1d5543","fromSide":"top","toNode":"1ef99b18db9c66be","toSide":"bottom"}
+	]
+}

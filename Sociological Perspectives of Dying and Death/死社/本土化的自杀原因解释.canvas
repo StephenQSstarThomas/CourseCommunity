@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"12d4456ed7b0da27","x":-80,"y":-10,"width":140,"height":60,"type":"text","text":"- 负性生活时间\n- 社会环境问题"},
+		{"id":"c2d0d98aaa3ed436","x":122,"y":-17,"width":158,"height":75,"type":"text","text":"价值观冲突、愿望与现实冲突、相对剥夺、危机应对能力缺乏"},
+		{"id":"2da3c1ae1a476dd5","x":340,"y":-9,"width":113,"height":60,"type":"text","text":"不协调压力（扭力）"},
+		{"id":"cfb5a2a287764294","x":640,"y":-9,"width":74,"height":60,"type":"text","text":"自杀行为"},
+		{"id":"6cc94aea2c6133d5","x":480,"y":100,"width":134,"height":60,"type":"text","text":"心理病理学干预/强化因素"},
+		{"id":"55c55bef7904486e","x":469,"y":-140,"width":156,"height":50,"type":"text","text":"社会/心理调节因素"}
+	],
+	"edges":[
+		{"id":"40a3d57747a1f988","fromNode":"12d4456ed7b0da27","fromSide":"right","toNode":"c2d0d98aaa3ed436","toSide":"left"},
+		{"id":"2959fad8d1d90eca","fromNode":"c2d0d98aaa3ed436","fromSide":"right","toNode":"2da3c1ae1a476dd5","toSide":"left"},
+		{"id":"29d417c1d8c016c8","fromNode":"2da3c1ae1a476dd5","fromSide":"right","toNode":"cfb5a2a287764294","toSide":"left"},
+		{"id":"8e3e08c0ff91ff6c","fromNode":"2da3c1ae1a476dd5","fromSide":"bottom","toNode":"6cc94aea2c6133d5","toSide":"left"},
+		{"id":"707e13ff46a0c779","fromNode":"6cc94aea2c6133d5","fromSide":"right","toNode":"cfb5a2a287764294","toSide":"bottom"},
+		{"id":"14afac6f0a3c3e8a","fromNode":"55c55bef7904486e","fromSide":"bottom","toNode":"cfb5a2a287764294","toSide":"left"}
+	]
+}

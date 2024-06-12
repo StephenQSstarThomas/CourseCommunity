@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"type":"text","text":"意大利：确诊74386例，病死率10%","id":"b413bf226464b696","x":-260,"y":-280,"width":250,"height":60},
+		{"type":"text","text":"德国：确诊37323例，病死率0.55%","id":"8b74eb12421d4d6b","x":140,"y":-280,"width":227,"height":60},
+		{"type":"text","text":"**两国病死率相差18倍**","id":"ee6939e8a5a96be4","x":-40,"y":-140,"width":207,"height":60},
+		{"type":"text","text":"###### 检测率与统计口径","id":"b9b48ab347d1090f","x":-47,"y":40,"width":221,"height":60},
+		{"type":"text","text":"###### 年龄与文化因素","id":"1f6b21c64adb5a06","x":-460,"y":40,"width":200,"height":60},
+		{"type":"text","text":"意：检测能力不足，且全面推广受政治干扰","id":"42eb67be6fc6c67e","x":-120,"y":140,"width":147,"height":120},
+		{"type":"text","text":"意：老年人是社交狂，见面喜欢行贴面礼，且很多人三代同住","id":"a579549099415b60","x":-333,"y":140,"width":147,"height":180},
+		{"type":"text","text":"德：很多老年人几乎没有社交活动","id":"acb595e0117be8d7","x":-333,"y":320,"width":147,"height":120},
+		{"type":"text","text":"意：病毒呈阳性的人中74%的人超过50岁","id":"2ebb9447cda6ea8a","x":-533,"y":140,"width":147,"height":120},
+		{"type":"text","text":"德：病毒呈阳性的人中有83%的病例控制在60岁以下","id":"b59a797dc77ddc6e","x":-533,"y":280,"width":147,"height":160},
+		{"type":"text","text":"德：检测能力欧洲最强，较早对轻症患者检测","id":"3e236bfe2a03f85f","x":-120,"y":270,"width":147,"height":170},
+		{"type":"text","text":"德：未将无法确定的是否由新冠病毒致死者和确诊前就以死亡者统计在内，也未像意大利那样进行验尸测试","id":"c2482c6c84babfe4","x":101,"y":140,"width":147,"height":300},
+		{"type":"text","text":"###### 医疗资源与病例追踪","id":"a0f3d0f61eb8411b","x":400,"y":40,"width":246,"height":60},
+		{"type":"text","text":"意：医疗系统不堪重负，被迫优先治疗年轻患者","id":"8afaeda4a6316d63","x":328,"y":140,"width":144,"height":160},
+		{"type":"text","text":"德：医院共有28000张重症监护病床，远超过意大利","id":"80a46f7e3a39e0a0","x":328,"y":300,"width":144,"height":140},
+		{"type":"text","text":"意：“一号病人”在确诊前屡被误诊，引发超级传播事件","id":"11e404ca13ab4f06","x":574,"y":140,"width":144,"height":160},
+		{"type":"text","text":"德：第一例病例时就开始进行专业追踪调查","id":"1cd1e9ae5f255ceb","x":574,"y":300,"width":144,"height":140},
+		{"type":"text","text":"[[死亡的社会学思考]]","id":"6a9187dac7924d95","x":-37,"y":-440,"width":201,"height":60}
+	],
+	"edges":[
+		{"id":"3bc9a4996ad102c1","fromNode":"b413bf226464b696","fromSide":"right","toNode":"8b74eb12421d4d6b","toSide":"left"},
+		{"id":"d98b2d7b2a8bbe09","fromNode":"8b74eb12421d4d6b","fromSide":"left","toNode":"b413bf226464b696","toSide":"right"},
+		{"id":"d184dcb8b2cfff8f","fromNode":"ee6939e8a5a96be4","fromSide":"left","toNode":"b413bf226464b696","toSide":"bottom"},
+		{"id":"6ab3e40320aaed20","fromNode":"ee6939e8a5a96be4","fromSide":"right","toNode":"8b74eb12421d4d6b","toSide":"bottom"},
+		{"id":"6dfa7eb5afb53535","fromNode":"1f6b21c64adb5a06","fromSide":"bottom","toNode":"2ebb9447cda6ea8a","toSide":"top"},
+		{"id":"6031a1b8b1e78f63","fromNode":"1f6b21c64adb5a06","fromSide":"bottom","toNode":"a579549099415b60","toSide":"top"},
+		{"id":"43a78fa4aac43be4","fromNode":"b9b48ab347d1090f","fromSide":"bottom","toNode":"42eb67be6fc6c67e","toSide":"top"},
+		{"id":"171ad2b2ea67e6ec","fromNode":"b9b48ab347d1090f","fromSide":"bottom","toNode":"c2482c6c84babfe4","toSide":"top"},
+		{"id":"a338bf6af4ba693a","fromNode":"a0f3d0f61eb8411b","fromSide":"bottom","toNode":"11e404ca13ab4f06","toSide":"top"},
+		{"id":"db54df840bfc2cef","fromNode":"a0f3d0f61eb8411b","fromSide":"bottom","toNode":"8afaeda4a6316d63","toSide":"top"},
+		{"id":"c09a6287162f74e2","fromNode":"1f6b21c64adb5a06","fromSide":"top","toNode":"ee6939e8a5a96be4","toSide":"bottom"},
+		{"id":"993637605e4c4c9a","fromNode":"b9b48ab347d1090f","fromSide":"top","toNode":"ee6939e8a5a96be4","toSide":"bottom"},
+		{"id":"1f1608aef368b5b3","fromNode":"a0f3d0f61eb8411b","fromSide":"top","toNode":"ee6939e8a5a96be4","toSide":"bottom"}
+	]
+}
