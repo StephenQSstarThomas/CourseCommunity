@@ -9,17 +9,17 @@
 
 感谢每一位贡献者的辛勤付出！所有的贡献者都会在首页被特别提及和感谢。
 
-
-- 谢佳芯 contributed to 地概整合版笔记
-- 牟玉书 contributed to 理力录制课程（B站合集）个人留言：欢迎关注关注尾箕制氘匠（B站），后续会发布更多精彩内容~
-- ThomasYang contributed to 量子力学、量子力学专题、群论II、数理方法、电动力学、理论力学
-- Perry contributed to 非线性物理专题
-- 曾偲 contributed to 高等数学（A）
-- StephenQS contributed to 理论力学、普物实验、高等数学（A）、数理方法、地震概论、《庄子》精读、四书精读、光学
-- qFF's() contributed to 医学史、马克思主义原理（医学部）
-- FurinaWai77 contributed to 可视化点群，个人主页 https://github.com/FurinaWai77 欢迎大家关注~
-- Anonymous User_01 contributed to 中国古代文学史（三）、方言学、中国考古学（一）、社会人类学
-- St. Psalm contributed to 平衡态统计物理、理论力学、电动力学
+- **高驰肖** contributed to mathematics,个人主页**https://wqgcx.github.io/**，**所有**课程资料自取
+- **谢佳芯** contributed to 地概整合版笔记
+- **牟玉书** contributed to 理力录制课程（B站合集）个人留言：欢迎关注关注尾箕制氘匠（B站），后续会发布更多精彩内容~
+- **ThomasYang** contributed to 量子力学、量子力学专题、群论II、数理方法、电动力学、理论力学
+- **Perry** contributed to 非线性物理专题
+- **曾偲** contributed to 高等数学（A）
+- **StephenQS** contributed to 理论力学、普物实验、高等数学（A）、数理方法、地震概论、《庄子》精读、四书精读、光学
+- **qFF's()** contributed to 医学史、马克思主义原理（医学部）
+- **FurinaWai77** contributed to 可视化点群，个人主页 **https://github.com/FurinaWai77** 欢迎大家关注~
+- **Anonymous User_01** contributed to 中国古代文学史（三）、方言学、中国考古学（一）、社会人类学
+- **St. Psalm** contributed to 平衡态统计物理、理论力学、电动力学
 ---
 
 ## 📢 What's New
