@@ -21,6 +21,7 @@
 - **Anonymous User_01** contributed to 中国古代文学史（三）、方言学、中国考古学（一）、社会人类学
 - **St. Psalm** contributed to 平衡态统计物理、理论力学、电动力学
 - **Raymond Wu** contrubuted to 政治经济学原理（对外经济贸易大学开设）
+- **Louis ⅩⅥ** contributed to 死亡的社会学思考、基础医学导论
 ---
 
 ## 📢 What's New
