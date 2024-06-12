@@ -9,7 +9,7 @@
 
 感谢每一位贡献者的辛勤付出！所有的贡献者都会在首页被特别提及和感谢。
 
-- **高驰肖** contributed to mathematics,个人主页**https://wqgcx.github.io/**，**所有**课程资料自取
+- **高驰肖** contributed to mathematics,**所有**课程资料自取——个人主页**https://wqgcx.github.io/**
 - **谢佳芯** contributed to 地概整合版笔记
 - **牟玉书** contributed to 理力录制课程（B站合集）个人留言：欢迎关注关注尾箕制氘匠（B站），后续会发布更多精彩内容~
 - **ThomasYang** contributed to 量子力学、量子力学专题、群论II、数理方法、电动力学、理论力学
