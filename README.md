@@ -142,5 +142,5 @@
 - [ ] 收集相关答疑视频、答疑帖子等
 - [ ] 整理并分类所有笔记和资源，建立用户反馈群，收集大家的建议
 
-## Chat Group
-
+## 🌟Chat Group
+# <p align="center"><img src='.assets/640.jpg'  width=500> </p>
