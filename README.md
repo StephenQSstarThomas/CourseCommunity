@@ -25,7 +25,7 @@
 - **ጿ ኈ ቼ  ዽ ጿ ኈ ቼ  ዽ ጿ ኈ** contributed to 数学物理方法、理论力学
 - **CarlosYang** contributed to 普物实验，高数
 - **小迷糊** contributed to 平统、医学物理导论
-- **梁清尧** contributed to 平统
+- **林芊妤** contributed to 平统
 - **罗西** contributed to 平统
 ---
 
