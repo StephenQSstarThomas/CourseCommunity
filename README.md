@@ -28,7 +28,7 @@
 - **小迷糊** contributed to 平统、医学物理导论
 - **林芊妤** contributed to 平统
 - **罗西** contributed to 平统
-- **陈风凌** contributed to 数学分析、高等代数、几何学等数院专业课，详见个人主页**https://github.com/mitdemwind/semester2-lecture-notes**[link](https://github.com/mitdemwind/semester2-lecture-notes)
+- **陈风凌** contributed to 数学分析、高等代数、几何学等数院专业课，详见个人主页**https://github.com/mitdemwind/semester2-lecture-notes**
 ---
 
 ## 📢 What's New
@@ -40,12 +40,18 @@
 - 6.13 项目得到了友校清华大学、对外经济贸易大学的同学支持，笔记课程及科目将适当拓展；高数笔记更新
 - 6.18 项目正式突破100 Stars；平统笔记更新（两份 23秋 yzc）
 - 6.23 项目公众号建立并发送第一篇推送！
+- 6.24 数学分析、高等代数、几何学等数院专业课笔记发布
 
 ---
 
 ## 📘 Courses and Notes
 
 ### 📐 Mathematics
+
+- **assembly of numerous classes**
+   - 个人主页：**https://github.com/mitdemwind/semester2-lecture-note**
+   - 个人主页：**https://wqgcx.github.io/**
+    
 - **Advanced Mathematics**
   - 电子版课程笔记 √ 
   - 答疑视频 https://wqgcx.github.io/
