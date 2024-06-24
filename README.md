@@ -28,6 +28,7 @@
 - **小迷糊** contributed to 平统、医学物理导论
 - **林芊妤** contributed to 平统
 - **罗西** contributed to 平统
+- **陈风凌** contributed to 数学分析、高等代数、几何学等数院专业课，详见个人主页**https://github.com/mitdemwind/semester2-lecture-notes**[link](https://github.com/mitdemwind/semester2-lecture-notes)
 ---
 
 ## 📢 What's New
