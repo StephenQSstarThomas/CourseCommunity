@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"1ff2a5d7a2885b75","x":-280,"y":-240,"width":125,"height":60,"type":"text","text":"极限寿命"},
+		{"id":"6bd5a90296b64090","x":180,"y":-240,"width":125,"height":60,"type":"text","text":"现实寿命"},
+		{"id":"e96f14e2d0642baa","x":-180,"y":-20,"width":125,"height":60,"type":"text","text":"生物因素"},
+		{"id":"76bf3170d0d5f218","x":80,"y":-20,"width":125,"height":60,"type":"text","text":"死亡制度"},
+		{"id":"d7cc7f2ab1f1787d","x":-260,"y":120,"width":565,"height":140,"type":"text","text":"死去的是什么人——死者的社会角色（死亡率分化分析）；在什么时间死——个体死亡的年龄或不同历史时期；在什么地方死——医院、家中、工作场所或其他；以什么样的方式死——疾病、事故、自杀或老死（死因分析）；死亡的符号意义——死亡的文化功能"},
+		{"id":"f0b5aa161a298338","x":-300,"y":360,"width":170,"height":60,"type":"text","text":"各种经济因素"},
+		{"id":"02f5a439ba51ab73","x":-96,"y":360,"width":237,"height":60,"type":"text","text":"文化因素——生活方式"},
+		{"id":"f1c06e39f31d4bf3","x":180,"y":360,"width":168,"height":60,"type":"text","text":"各种政治因素"},
+		{"id":"e6300c833ad6f25e","x":-119,"y":-352,"width":199,"height":60,"type":"text","text":"[[死亡的社会学思考]]"}
+	],
+	"edges":[
+		{"id":"dc2763e17b1c4523","fromNode":"1ff2a5d7a2885b75","fromSide":"right","toNode":"6bd5a90296b64090","toSide":"left"},
+		{"id":"ffa7eb67025bad28","fromNode":"6bd5a90296b64090","fromSide":"left","toNode":"1ff2a5d7a2885b75","toSide":"right"},
+		{"id":"ea70032642bbcd78","fromNode":"e96f14e2d0642baa","fromSide":"right","toNode":"6bd5a90296b64090","toSide":"left"},
+		{"id":"ede903fcd7aa5e22","fromNode":"e96f14e2d0642baa","fromSide":"right","toNode":"76bf3170d0d5f218","toSide":"left"},
+		{"id":"9d27d63278413d27","fromNode":"76bf3170d0d5f218","fromSide":"top","toNode":"6bd5a90296b64090","toSide":"bottom"},
+		{"id":"aa7a5eb1b3e22fc0","fromNode":"e96f14e2d0642baa","fromSide":"bottom","toNode":"d7cc7f2ab1f1787d","toSide":"top"},
+		{"id":"8617a237f24f898e","fromNode":"d7cc7f2ab1f1787d","fromSide":"top","toNode":"e96f14e2d0642baa","toSide":"bottom"},
+		{"id":"9db43425576e233e","fromNode":"76bf3170d0d5f218","fromSide":"left","toNode":"e96f14e2d0642baa","toSide":"right"},
+		{"id":"4c996af51e14a8be","fromNode":"76bf3170d0d5f218","fromSide":"bottom","toNode":"d7cc7f2ab1f1787d","toSide":"top"},
+		{"id":"26328ca34ebd9246","fromNode":"d7cc7f2ab1f1787d","fromSide":"top","toNode":"76bf3170d0d5f218","toSide":"bottom"},
+		{"id":"2b1a86f97d7b90ea","fromNode":"f0b5aa161a298338","fromSide":"top","toNode":"d7cc7f2ab1f1787d","toSide":"bottom"},
+		{"id":"836e9368290c5cea","fromNode":"02f5a439ba51ab73","fromSide":"top","toNode":"d7cc7f2ab1f1787d","toSide":"bottom"},
+		{"id":"22d5ee6286cb53e6","fromNode":"f1c06e39f31d4bf3","fromSide":"top","toNode":"d7cc7f2ab1f1787d","toSide":"bottom"},
+		{"id":"e0d8518143c273c5","fromNode":"f0b5aa161a298338","fromSide":"right","toNode":"02f5a439ba51ab73","toSide":"left"},
+		{"id":"72438740a1c3d4ce","fromNode":"02f5a439ba51ab73","fromSide":"left","toNode":"f0b5aa161a298338","toSide":"right"},
+		{"id":"cd12d86879a919aa","fromNode":"02f5a439ba51ab73","fromSide":"right","toNode":"f1c06e39f31d4bf3","toSide":"left"},
+		{"id":"a19b477bc2c2d738","fromNode":"f1c06e39f31d4bf3","fromSide":"left","toNode":"02f5a439ba51ab73","toSide":"right"}
+	]
+}
