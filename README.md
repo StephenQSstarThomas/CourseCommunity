@@ -1,9 +1,10 @@
 # <p align="center"><img src='.assets/logo_v1.0.jpg'  width=500> </p>
 ## <p align="center" style="display:inline-block;"><font  face="Calisto MT"><font  size="3">📚 CourseCommunity: Undergraduate Courses Notes Platform</font></font></p>
 
-- 这是一个主要面向物院同学的课程笔记互助分享平台，目前笔记包括但不仅限于物理、中文、哲学、医学专业课，以及通选课等约20门课程的笔记
+- 这是一个主要面向北大同学的课程笔记互助分享平台，目前笔记包括但不仅限于物理、中文、哲学、医学专业课，以及通选课等约20门课程的笔记
 - 这个文件夹最终将包含各个课程的各类笔记，包含但不仅限于电子版课程笔记、自己做的答疑视频或者帖子链接等。
-- 社区公约请参考：[Guidelines](.assets/guidelines.md)
+- **项目导览及目录请参考：[Contents](toc.md)**
+- **社区公约请参考：[Guidelines](.assets/guidelines.md)**
 ### Repo creator: 仇是(StephenQS)
 ### 一代目：赵思淇，钟芳雄，许陌涵，卫家燊，施梓瀚，仇是，江玮陶，孙一杨，黄祉宾，申应君，叶桓岩
 #### Logo created by qFF's()
@@ -43,7 +44,7 @@
 - 6.23 项目公众号建立并发送第一篇推送！
 - 6.24 数学分析、高等代数、几何学等数院专业课笔记发布
 - 6.25 新增qsgg女装（严格来说不算）😋
-- 6.26 新增总览目录[Contents](toc.md)
+- 6.26 **新增总览目录[Contents](toc.md)**,方便大家查询
 ---
 
 ## 📘 Courses and Notes
