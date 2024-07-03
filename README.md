@@ -31,6 +31,7 @@
 - **林芊妤** contributed to 平统
 - **罗西** contributed to 平统
 - **陈风凌** contributed to 数学分析、高等代数、几何学等数院专业课，详见个人主页**https://github.com/mitdemwind/semester2-lecture-notes**
+- **龙思成** contributed to 中级微观经济学
 ---
 
 ## 📢 What's New
@@ -45,6 +46,7 @@
 - 6.24 数学分析、高等代数、几何学等数院专业课笔记发布
 - 6.25 新增qsgg女装（严格来说不算）😋
 - 6.26 **新增总览目录[Contents](toc.md)**,方便大家查询
+- 7.3 **笔记招募发布！** 欢迎大家关注https://mp.weixin.qq.com/s/-OdMJBZnbzrou8VjL4uCzg ； 中级微观经济学、热学、光学笔记上传
 ---
 
 ## 📘 Courses and Notes
