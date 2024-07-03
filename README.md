@@ -157,4 +157,3 @@
 ### 由于群人数达到200，需要邀请进群，请添加以下管理员的微信申请进群：
 # <p align="center"><img src='.assets/微信图片_20240627124950.jpg'  width=500> </p>
 # <p align="center"><img src='.assets/微信图片_20240627125349.png'  width=500> </p>
-# <p align="center"><img src='.assets/640.jpg'  width=500> </p>
