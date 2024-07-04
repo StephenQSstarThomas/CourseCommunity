@@ -32,21 +32,23 @@
 - **罗西** contributed to 平统
 - **陈风凌** contributed to 数学分析、高等代数、几何学等数院专业课，详见个人主页**https://github.com/mitdemwind/semester2-lecture-notes**
 - **龙思成** contributed to 中级微观经济学
+- **王楷越** contributed to 清华数学物理系列课程——基础物理学、高等微积分、电动力学、量子力学、数理方程、复变函数、分析力学，详见项目友链**https://github.com/Morris-w22/Mathematical_physics_curricula-note**
 ---
 
 ## 📢 What's New
 
-- 6.8 中国古代文学史（三）、方言学、中国考古学（一）、社会人类学 笔记发布；平统、电动、理力笔记更新； 
-- 6.9 dwz数理方法作业及难题交流答案发布
-- 6.10 项目运营doc发布（在assets中）
-- 6.12 项目正式宣传公开，普物实验、数理方法、死亡的社会学思考、基础医学导论、医学物理导论、平统、理力、政治经济学原理（对外经济贸易大学开设）笔记更新
-- 6.13 项目得到了友校清华大学、对外经济贸易大学的同学支持，笔记课程及科目将适当拓展；高数笔记更新
-- 6.18 项目正式突破100 Stars；平统笔记更新（两份 23秋 yzc）
-- 6.23 项目公众号建立并发送第一篇推送！
-- 6.24 数学分析、高等代数、几何学等数院专业课笔记发布
-- 6.25 新增qsgg女装（严格来说不算）😋
-- 6.26 **新增总览目录[Contents](toc.md)**,方便大家查询
-- 7.3 **笔记招募发布！** 欢迎大家关注https://mp.weixin.qq.com/s/-OdMJBZnbzrou8VjL4uCzg ； 中级微观经济学、热学、光学笔记上传
+- **7.4** 清华数学物理系列课程笔记发布！欢迎大家持续关注**https://github.com/Morris-w22/Mathematical_physics_curricula-note**
+- **7.3** **笔记招募发布！** 欢迎大家关注 [https://mp.weixin.qq.com/s/-OdMJBZnbzrou8VjL4uCzg](https://mp.weixin.qq.com/s/-OdMJBZnbzrou8VjL4uCzg) ； 中级微观经济学、热学、光学笔记上传
+- **6.26** **新增总览目录 [Contents](toc.md)**，方便大家查询
+- **6.24** 数学分析、高等代数、几何学等数院专业课笔记发布
+- **6.23** 项目公众号建立并发送第一篇推送！
+- **6.18** 项目正式突破 100 Stars；平统笔记更新（两份 23 秋 yzc）
+- **6.13** 项目得到了友校清华大学、对外经济贸易大学的同学支持，笔记课程及科目将适当拓展；高数笔记更新
+- **6.12** 项目正式宣传公开，普物实验、数理方法、死亡的社会学思考、基础医学导论、医学物理导论、平统、理力、政治经济学原理（对外经济贸易大学开设）笔记更新
+- **6.10** 项目运营 doc 发布（在 assets 中）
+- **6.9** dwz 数理方法作业及难题交流答案发布
+- **6.8** 中国古代文学史（三）、方言学、中国考古学（一）、社会人类学笔记发布；平统、电动、理力笔记更新；
+
 ---
 
 ## 📘 Courses and Notes
@@ -68,6 +70,8 @@
   - 帖子链接
 
 ### 🔬 Physics
+- **Assembly of Tsinghua University Physics Courses**
+   - 个人项目主页：https://github.com/Morris-w22/Mathematical_physics_curricula-note
 - **Theoretical Mechanics**
   - 电子版课程笔记 √
   - 答疑视频 https://space.bilibili.com/1036852626/channel/collectiondetail?sid=2017309
