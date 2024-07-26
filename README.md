@@ -37,6 +37,7 @@
 
 ## 📢 What's New
 
+- **7.27** 我们即将发布我们的CourseCommunity网站，在科学上网访问以及笔记下载问题上得到了完美解决。敬请期待！
 - **7.4** 清华数学物理系列课程笔记发布！欢迎大家持续关注**https://github.com/Morris-w22/Mathematical_physics_curricula-note**
 - **7.3** **笔记招募发布！** 欢迎大家关注 [https://mp.weixin.qq.com/s/-OdMJBZnbzrou8VjL4uCzg](https://mp.weixin.qq.com/s/-OdMJBZnbzrou8VjL4uCzg) ； 中级微观经济学、热学、光学笔记上传
 - **6.26** **新增总览目录 [Contents](toc.md)**，方便大家查询
