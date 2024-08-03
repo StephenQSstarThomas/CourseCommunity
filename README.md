@@ -3,6 +3,7 @@
 
 - 这是一个主要面向北大同学的课程笔记互助分享平台，目前笔记包括但不仅限于物理、中文、哲学、医学专业课，以及通选课等约20门课程的笔记
 - 这个文件夹最终将包含各个课程的各类笔记，包含但不仅限于电子版课程笔记、自己做的答疑视频或者帖子链接等。
+- **项目网站：[Website](coursecommunity.com.cn)**
 - **项目导览及目录请参考：[Contents](toc.md)**
 - **社区公约请参考：[Guidelines](.assets/guidelines.md)**
 ### Repo creator: 仇是(StephenQS)
@@ -38,7 +39,7 @@
 
 ## 📢 What's New
 
-- **7.27** 我们即将发布我们的CourseCommunity网站，在科学上网访问以及笔记下载问题上得到了完美解决。敬请期待！
+- **8.3** 我们正式发布我们的CourseCommunity网站，在科学上网访问以及笔记下载问题上得到了完美解决。敬请期待！
 - **7.4** 清华数学物理系列课程笔记发布！欢迎大家持续关注**https://github.com/Morris-w22/Mathematical_physics_curricula-note**
 - **7.3** **笔记招募发布！** 欢迎大家关注 [https://mp.weixin.qq.com/s/-OdMJBZnbzrou8VjL4uCzg](https://mp.weixin.qq.com/s/-OdMJBZnbzrou8VjL4uCzg) ； 中级微观经济学、热学、光学笔记上传
 - **6.26** **新增总览目录 [Contents](toc.md)**，方便大家查询
