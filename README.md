@@ -20,7 +20,7 @@
 - **曾偲** contributed to 高等数学（A）
 - **StephenQS** contributed to 理论力学、普物实验、高等数学（A）、数理方法、地震概论、《庄子》精读、四书精读、光学
 - **qFF's()** contributed to 医学史、马克思主义原理（医学部）
-- **FurinaWai77** contributed to 可视化点群，个人主页 **https://github.com/FurinaWai77** 欢迎大家关注~
+- **FurinaWai77** contributed to 可视化点群、量子场论、高等量子力学等，个人主页 **https://github.com/FurinaWai77** 欢迎大家关注~
 - **Anonymous User_01** contributed to 中国古代文学史（三）、方言学、中国考古学（一）、社会人类学
 - **St. Psalm** contributed to 平衡态统计物理、理论力学、电动力学
 - **Raymond Wu** contrubuted to 政治经济学原理（对外经济贸易大学开设）
@@ -33,6 +33,7 @@
 - **陈风凌** contributed to 数学分析、高等代数、几何学等数院专业课，详见个人主页**https://github.com/mitdemwind/semester2-lecture-notes**
 - **龙思成** contributed to 中级微观经济学
 - **王楷越** contributed to 清华数学物理系列课程——基础物理学、高等微积分、电动力学、量子力学、数理方程、复变函数、分析力学，详见项目友链**https://github.com/Morris-w22/Mathematical_physics_curricula-note**
+- **Jenny** contributed to 热学
 ---
 
 ## 📢 What's New
