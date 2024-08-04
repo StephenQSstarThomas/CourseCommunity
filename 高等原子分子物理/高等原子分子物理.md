@@ -1,0 +1,1205 @@
+# 高等原子分子物理
+
+自由电子发射  $e^-\to e^-+\gamma$	Xe: $I_p(Xe)=12.1298eV,\hbar\omega=2.33eV$, t $N=6$但测出$N\gg6$
+
+切伦科夫辐射 ：$u$入射，散射角$\alpha$
+$$
+\cos\alpha=\dfrac{c}{\sqrt{\varepsilon_r}u}\left(1-\dfrac{\varepsilon_r-1}2\sqrt{1-\dfrac{u^2}{c^2}}\dfrac{\hbar\omega}{mc^2}\right)
+$$
+$\varepsilon_r=1$: $\cos\alpha=\dfrac{c}u>1$	不能发射	水：可以
+
+Above Threshold Ionization(ATI)	阈上电离
+
+能量 $U_p=\dfrac{e^2E_0^2}{4m\omega^2}a.u.=\dfrac{E_0^2}{4\omega^2}$	$U_p=0.22a.u.=5.99eV,\quad \Delta t\sim \dfrac{\hbar}{\Delta E}\sim 0.5a.u.\sim 12as$
+
+HHG-ATI
+
+$t_0$ 出生时刻	$E(t)=E_0\sin\omega t,\quad v(t)=-\int_{t_0}^tE(t')\mathrm dt',\quad x(t)=\int_{t_0}^tv(t')\mathrm dt'$
+
+$v(t)=\dfrac{E_0}{\omega}(\cos\omega t-\cos\omega t_0)$	第一项：oscillation	第二项：translation (drift)
+
+驱动部分 $\dfrac{1}2mv_{drift}^2=\dfrac{E_0^2}{2\omega^2}\cos^2\omega t_0=2U_p\cos^2\omega t\leq 2U_p$
+
+Recollision	$x(t)=\int_{t_0}^tv(t')\mathrm dt'=-\dfrac{E_0}{\omega}(t-t_0)\cos\omega t_0+\dfrac{E_0}{\omega^2}(\sin\omega t-\sin\omega t_0)$
+
+回碰条件：$x(t_r)=0\implies (\omega t_r-\omega t_0)\cos\omega t_0=\sin \omega t_r-\sin\omega t_0$
+
+$t_0\to t_r,t_r>t_0$	讨论可知仅可$\dfrac{\pi}2\leq \omega t_0<\pi$或$\dfrac{3\pi}2\leq\omega t_0<2\pi$
+
+速度分解 $\begin{cases}v(t_r)=\dfrac{E}{\omega}(\cos\omega t-\cos\omega t_0)\\v_{\|}(t_r)=v(t_r)\cos\theta\\ v_\perp(t_r)=v(t_r)\sin\theta\end{cases}$，之后
+$$
+\begin{cases}
+v_{\|}(t)=v_{\|}(t_r)+\int_{t_r}^ta(t')\mathrm dt'=\dfrac{E}\omega(\cos\omega t_r-\cos\omega t_0)\cos\theta+\dfrac E\omega(\cos\omega t-\cos\omega t_r)\\
+v_\perp(t)=v_\perp(t_r)=\dfrac{E}\omega(\cos\omega t_r-\cos\omega t_0)\sin\theta
+\end{cases}
+$$
+电子动能 $E_k(t)=\frac12(v_{//}^2(t)+v_\perp^2(t))$，即
+$$
+\begin{aligned}
+E_k(t)&=\frac{E_0^2}{2\omega^2}[(\cos\omega t_r-\cos\omega t_0)^2+(\cos\omega t-\cos\omega t_r)^2\\&+2(\cos\omega t_r-\cos\omega t_0)\cos\theta(\cos\omega t-\cos\omega t_r)]
+\end{aligned}
+$$
+令$U_p=\frac{E_0^2}{4\omega^2}$，平均
+$$
+\langle E_k\rangle=2U_p[(\cos\omega t_r-\cos\omega t_0)^2+\frac12+\cos^2\omega t_0-2\cos\theta(\cos\omega t_r-\cos \omega t_0)\cos\omega t_r]
+$$
+量子情形 $i\pdv t\psi=\hat H\psi,\quad \hat H=\frac12[p+A(t)]^2-\varphi(x)=H_{pA}$ 
+
+规范变换$\psi(x,t)\to e^{i\chi(x,t)}\psi(x,t),e=-1\quad H'=\frac12[p+(A(t)+\nabla\chi)]^2+(\varphi-\pdv{\chi}{t})$
+
+取$\chi=-A(t)x$，得到另一个规范 $H_{dE}=\frac{p^2}2-\varphi(x)+xE(t)$
+
+两个规范下的波函数满足 $\psi_{pA}(t)=e^{-iA(t)x}\psi_{dE}(t)$
+
+当$\varphi=0$时 $\vec E=-\pdv{\vec A}{t},\quad \vec v(t)=\vec p+\vec A(t)=\vec p-\frac{\vec E}\omega\sin\omega t$
+
+Volkov function
+
+SFA: $i\pdv{t}\psi=\frac12(p+A(t))^2\psi,\quad \psi=N\varphi(t)e^{i\vec p\cdot\vec r}$
+
+$\implies \varphi(t)=e^{-\frac{i}2\int^t[\vec p+\vec A(t')]\dd t'}$	$E(t)=E\cos\omega t,\vec E=-\pdv{\vec A}{t}\implies \vec A(t)=-\frac{E}\omega \sin\omega t$
+$$
+\psi_{PA}(\vec r,t)=Ne^{i\vec p\cdot\vec r}e^{-i\qty[\qty(\frac{p^2}2+\frac{E^2}{4\omega^2})t+\frac{\vec p\cdot\vec E}{\omega^2}-\frac{E^2}{4\omega^2}\frac{\sin 2\omega t}{2\omega}]}
+$$
+
+$$
+\psi_{dE}(\vec r,t)=(2\pi)^{-\frac32}e^{i\vec p\cdot\vec r}e^{-\frac i2\int^t v(t')^2\dd t}=Ne^{i\vec v\cdot\vec r}e^{-i\qty[\qty(\frac{p^2}2+\frac{E^2}{4\omega^2})t+\frac{\vec p\cdot\vec E}{\omega^2}-\frac{E^2}{4\omega^2}\frac{\sin 2\omega t}{2\omega}]}
+$$
+
+$a_p(t)=-i\int_{t_i}^t\mathrm dt'\bra{\psi_f(p)}V_L(t')\ket{\psi_i}e^{i(E_f-E_i)t'}=-i\int_{t_i}^t\dd t'\bra{e^{i\vec v(t)\cdot\vec r}}V_L(t')\ket{\psi_i}e^{-\frac i2\int_{t'}^tv(\tau)^2\dd\tau}e^{iI_pt'}$
+
+鞍点近似	作用量$S(t,t')=-\frac12\int_{t'}^tv(\tau)^2\dd\tau+I_pt'$
+
+$\pdv{S(t,t')}{t'}=0\implies\frac12v(t')^2+I_p=0,t'=t_0$	$v(t_0)=p-\dfrac E\omega\sin\omega t_0\xlongequal{p=0}-i\sqrt{2I_p}$
+
+$t_0=it_0'',\quad \sinh \omega t_0''=\dfrac{\omega}E\sqrt{2I_p}=\gamma=\sqrt{\dfrac{I_p}{2U_p}}$ 	$\gamma$称为Keldysh参数
+
+$x(t)=X(t)+\xi(t)$，其中$X(t)$慢，$\xi(t)$快	$\langle\xi(t)\rangle=0$	有质动力势
+
+$U(x)=U(X+\xi)\approx U(X)+\xi\dv{U}{X}+\cdots,\quad f(x,y)=f_0\cos\omega t=f(X+\xi,t)\approx f(X)+\xi\dv{f}{X}+\cdots$
+
+$m\ddot X+m\ddot\xi=-\dv{U}{X}-\xi\dv[2]{U}{X}+f(X,t)+\xi\dv{f}{X},\quad m\ddot\xi=f(X,t)+\xi\dv{f}{X}$
+
+第二项快变，可略  $\ddot\xi\approx \omega^2\xi,\quad \xi=-\frac{f}{m\omega^2}$
+
+运动方程取平均 $m\langle\ddot X\rangle=-\dv{U}{X}+\langle \xi\dv{f}{X}\rangle=-\dv{U}{X}-\frac{1}{m\omega^2}\langle f\dv{f}{X}\rangle=-\dv{(U+U_p)}{X}$
+
+其中 $U_p=\frac{1}{2m\omega^2}\langle f^2\rangle$，对电磁场就是$U_p=\frac{E_0^2}{4m\omega^2}$
+
+类比：参变共振的摆，振幅$a$ 	 $f_{eff}=-ma\omega^2\cos\omega t\sin\varphi$
+
+有效势 $U_{eff}=U_p-mgl\cos\varphi=mgl[-\cos\varphi+\frac{a^2\omega^2}{4gl}\sin^2\varphi]$
+
+在$\varphi=\pi$附近：$\varphi+\varepsilon$	$U_{eff}(\varepsilon)\approx mgl[1-\frac12(1-\frac{a^2\omega^2}{2gl})\varepsilon^2]$	$a\omega$较大时可以稳定平衡
+
+在$\psi_{dE}$中的$e^{ix\sin 2\omega t}$项，可利用$e^{ix\sin \gamma}=\sum_N J_N(x)e^{iN\gamma}$展开，对应等间隔的新的频率，即缀饰态 Dressed state
+
+用虚时间表示的作用量 $S(0,t'=it_0'')=\frac i2\int_{t_0''}^0v(i\tau)^2-iI_pt_0''$
+
+代入$p=0$时$v(t)=-\frac{E}\omega\sin\omega t_0$后化简得到
+
+$\Im S(0,t'=it_0'')=\frac{E^2}{4\omega^2}\frac{\gamma\sqrt{1+\gamma^2}}\omega-(\frac{I_p}\omega+\frac{E^2}{4\omega^2})\operatorname{arcsinh}\gamma$
+
+再代入$\gamma$定义以及$U_p=\frac{E^2}{4\omega^2}$得到
+
+$\Im S(0,t'=it_0'')=-\frac{I_p}\omega[(1+\frac{1}{2\gamma^2})\operatorname{arcsinh}\gamma-\frac{\sqrt{1+\gamma^2}}{2\gamma}]$
+
+在$\gamma\ll 1$即$I_p\ll U_p$（强场）情况下 $\Im S\approx-\frac{I_p}\omega\frac{4\gamma}3=-\frac{1}32^{\frac32}I_p^{\frac32}E^{-1}$
+
+相应跃迁概率幅 $a_p\sim e^{\Im S(0,it_0'')}\sim e^{-\frac{(2I_p)^{\frac32}}{3E}}\sim e^{-\frac{\sqrt{m_e}}{e\hbar}\frac{(2I_p)^{\frac32}}{3E}}\sim e^{-\frac1E}$
+
+在$\gamma\gg1$即$I_p\gg U_p$（弱场）情况下 $\Im S\approx-\frac{I_p}\omega\ln 2\gamma,\quad a_p\sim \frac{1}{(2\gamma)^{\frac{I_p}\omega}}\sim [\frac{E}{2\omega}\sqrt{2I_p}]^{\frac{I_p}\omega}\sim E^{\frac{I_p}\omega}$
+
+单位制与量纲	a.u. $[\hbar],[m_e],[e],[4\pi\varepsilon_0]$	MKS $[M],[L],[T],[c]$
+
+MKS到a.u.的转移矩阵 $A=\begin{pmatrix}1&2&-1&0\\1&0&0&0\\0&0&0&1\\-1&-3&2&2\end{pmatrix}$  反过来 $B=A^{-1}=\begin{pmatrix}0&1&0&0\\2&-1&-2&1\\2&-1&-4&2\\0&0&1&0\end{pmatrix}$
+
+即 $\begin{pmatrix}\ln\,[\hbar]\\\ln\,[m_e]\\\ln\,[e]\\\ln\,[4\pi\varepsilon_0]\end{pmatrix}=A\begin{pmatrix}\ln\,[M]\\\ln\,[L]\\\ln\,[T]\\\ln\,[c]\end{pmatrix},\quad \begin{pmatrix}\ln\,[M]\\\ln\,[L]\\\ln\,[T]\\\ln\,[c]\end{pmatrix}=B\begin{pmatrix}\ln\,[\hbar]\\\ln\,[m_e]\\\ln\,[e]\\\ln\,[4\pi\varepsilon_0]\end{pmatrix}$
+
+运用过来：$(\frac{I_p^{\frac32}}{E})_{SI}=\frac{M^{\frac32}L^3T^{-3}}{MLc^{-1}T^{-2}}(\frac{I_p^{\frac32}}{E})_{a.u.}=\hbar m^{-\frac32}(\frac{I_p^{\frac32}}{E})_{a.u.}$
+
+原子：跃迁、精细结构$l,s$、旋量表示、$SO(3,1)$旋量表示
+
+应用：超冷原子和原子钟、GPS、合成规范场、自旋极化电子束流
+
+双原子分子：分子振动与转动、不可约张量方法、Fano-Feshbach共振、Landau-Zener理论
+
+多原子分子：振动与表示、fibre,bundle与不动点定理、$j$-invariant 魔群月光理论
+
+含时微扰论	$i\hbar\pdv{\psi}{t}=\hat H(t)\psi,\quad \hat H(t)=H_0+H'(t)$
+
+$\psi(x,t)=\sum_kc_k(t)e^{-\frac{iE_k^{(0)}t}\hbar}\psi_k^{(0)}(x)$	$H=-\vec\mu\cdot\vec E\frac12(e^{i\omega t}+e^{-i\omega t})$
+
+$c_m(t)=c_m(0)-\frac i\hbar \int_0^t e^{i\omega_{mn}t}\bra{\psi_m^{(0)}}\hat H'(t)\ket{\psi_n^{(0)}}\dd t$，代入计算得到
+
+$c_m(t)=\delta_{mn}+\frac{i\vec E}{2\hbar}\cdot\bra{\psi_m^{(0)}}\vec \mu\ket{\psi_n^{(0)}}[\frac{e^{i(\omega_{mn}+\omega)t}-1}{\omega_{mn}+\omega}+\frac{e^{i(\omega_{mn}-\omega)t}-1}{\omega_{mn}-\omega}]$
+
+受激吸收（SA）：$\omega_{mn}=\omega,\ket m\to\ket n$	$\dv{N_n}{t}=B_{m\to n}N_mu(\nu_{mn})$
+
+受激发射（SE）：$\omega_{mn}=-\omega,\ket n\to\ket m$	$\dv{N_n}{t}=-B_{n\to m}N_mu(\nu_{mn})$
+
+自发辐射	$\dv{N_n}{t}=-A_{n\to m}N_n$
+
+平衡时$\dv{N_n}{t}=0$，得到$B_{n\to m}=B_{m\to n}=B$
+
+以及$\frac{N_n}{N_m}=\frac{Bu(\nu_{mn})}{Bu(\nu_{mn})+A}=e^{-\frac{h\nu_{mn}}{k_bT}},\quad u(\nu_{mn})=\frac{8\pi h\nu_{mn}^3}{c^3}\frac{1}{e^{\frac{h\nu_{mn}}{k_BT}}-1}$
+
+对比得到$A=\frac{8\pi h\nu_{mn}^3}{c^3}B$
+
+光打入分子初态$s$，$l=1$，自旋（偏振）量子数$q$	$q=0\to p_z,q=\pm1\to p_x,p_y$
+
+$SO(2): l=1,m_l=\pm1\quad SO(3):l=1,m_l=\pm 1,0$
+
+要求矩阵元$\begin{pmatrix}l&1&l'\\m_l&q&-m_l'\end{pmatrix}\neq0$
+
+$\vec\mu=-e\vec r=-er(\hat i\sin\theta\cos\varphi+\hat j\sin\theta\sin\varphi+\hat k\cos\theta)$
+
+考察跃迁：$\langle\vec\mu\rangle=\bra{\psi_{nlm_lm_s}}\vec \mu\ket{n'l'm_l'm_s'}$，计算得到
+$$
+\langle\vec\mu\rangle=-e\int_0^\infty rR_{nl}(r)R_{n'l}(r)r\dd r\int_0^{\pi}\sin\theta\dd\theta\int_0^{2\pi}\dd\varphi Y_{lm}(\theta,\varphi)Y_{l'm'}(\theta,\varphi)\begin{pmatrix}\sin\theta\cos\varphi\\\sin\theta\sin\varphi\\\cos\theta\end{pmatrix}\delta_{m_3m_3'}
+$$
+记矢量部分为$T_q^{(1)},q=0,\pm1$	选择定则$\forall \Delta n,\Delta m_s=0,\Delta m_l=0,\pm1,\Delta l=\pm1$
+
+非零$\langle\mu_z\rangle$要求$\Delta l=\pm1,\Delta m_l=0$，非零$\langle \mu_{x,y}\rangle$要求$\Delta l=\pm1,\Delta m_l=\pm1$
+
+在$\bra{\psi_f}\hat O\ket{\psi_i}$中，$\ket{\psi_i(f)}$是表示$\Gamma^{(i,f)}$的基函数，$\hat O$的表示为$\Gamma^{(o)}$
+
+在矩阵元$\begin{pmatrix}l&1&l'\\m_l&q&-m_l'\end{pmatrix}$，上半部分属于$SO(3)$，下半部分属于$SO(2)$
+
+在$\sigma^+$光作用下，$l=1,m_j=-\frac12,m_l=-1,m_s=\frac12\to l=1,m_j=\frac12,m_l=0,m_s=\frac12$
+
+即$\ket{p^-\uparrow}+\ket{p^0\downarrow}\to \ket{p^0\uparrow}$，亦即自旋翻转
+
+He原子的Quantum defect theory
+
+$H=H_0+H'$, $H'=\frac{e^2}{r_{12}},H_0=(-\frac{\hbar^2}{2m}\nabla_1^2-\frac{2e^2}{r_1})+(-\frac{\hbar^2}{2m}\nabla_2^2-\frac{2e^2}{r_2})$
+
+零阶 $H_0\psi_i^{(0)}=E_i^{(0)}\psi_i^{(0)},\quad \psi_i^{(0)}(1,2)=\psi_1(1)\psi_2(2)$
+
+其中 $\psi_1(1)=\sqrt{\frac{8}{\pi a_0^3}}e^{-\frac{2r_1}{a_0}},\psi_2(2)=\sqrt{\frac{8}{\pi a_0^3}}e^{-\frac{2r_2}{a_0}}$，$E_0=-\frac{4e^2}{a_0}$
+
+一阶微扰 $\langle H'\rangle=\int\psi_0^{(0)}H'\psi_0^{(0)}\dd{\vec r}=e^2\int_0^\infty\psi_1^2(1)[\frac{1}{r_1}-e^{-\frac{4r_1}{a_0}}(\frac{2}{a_0}+\frac{1}{r_1})]\dd{\vec r_1}$
+
+其中方括号内的项在$r_1\to0$趋于$0$，在$r_1\to\infty$趋于$\frac{e^2}{r_1}$
+
+叠加上原子核构成了有效势 
+$$
+V_{eff}(r_1)=-\frac{2e^2}{r_1}+e^2\qty[\frac{1}{r_1}-e^{-\frac{4r_1}{a_0}}(\frac{2}{a_0}+\frac{1}{r_1})]
+$$
+$r_1\to0,V_{eff}(r_1)\to-\frac{2e^2}{r_1}$,  $r_1\to\infty,V_{eff}(r_1)\to-\frac{e^2}{r_1}$
+
+精确计算得到 $E_{He}=E_0+\langle H'\rangle=\frac{5e^2}{4a_0}=-74.8eV$
+
+$\uparrow\otimes\uparrow=\text{singlet}\otimes\text{triplet}$
+
+$\ket S_{asym}=\frac{1}{\sqrt 2}(\ket{\uparrow\downarrow}-\ket{\downarrow\uparrow}),\quad\ket T_{sym}=\begin{cases}\ket{\uparrow\uparrow}\\\downarrow\downarrow\\\frac{1}{\sqrt 2}(\ket{\uparrow\downarrow}+\ket{\downarrow\uparrow})\end{cases}$
+
+总波函数 $\psi_{tot}=\psi_{space}\psi_{spin}$，其单重态和三重态为
+$$
+\begin{cases}
+\psi_{singlet}=\ket{S}_{asym}\otimes(\psi_1(r_1)\psi_2(r_2)+\psi_1(r_2)\psi_2(r_1))_{sym}\\
+\psi_{triplet}=\ket{T}_{sym}\otimes(\psi_1(r_1)\psi_2(r_2)-\psi_1(r_2)\psi_2(r_1))_{asym}
+\end{cases}
+$$
+x轴上的投影$\ket{\rightarrow}=\frac{1}{\sqrt 2}(\ket{\uparrow}+\ket{\downarrow}),\ket{\leftarrow}=\frac{1}{\sqrt2}(\ket{\uparrow}-\ket{\downarrow})$
+
+考虑$\ket{T,s=1,m_s=0}$的态：$\ket{\uparrow\downarrow}+\ket{\downarrow\uparrow}=(\ket{\rightarrow\rightarrow}-\ket{\leftarrow\leftarrow})$
+
+旋轨耦合 $|\vec S|=\frac\hbar2,\vec\mu_e=-g_e\frac{\mu_B\vec S}\hbar,g_e=2(1+\frac\alpha{2\pi}+\cdots),\mu_B=\frac{e\hbar}{2m}$
+
+电磁场$\vec E=\frac{Ze}{4\pi\varepsilon_0r^2}\hat r,\vec B=-\gamma\frac{\vec v\times\vec E}{c^2}$
+
+哈密顿量 $\hat H_i^{so}=-\vec\mu_e\cdot\vec B=-\frac{g_e\mu_B\vec S}{\hbar}\frac{Ze}{4\pi\varepsilon_0r}\frac{\vec v\times\hat r}{c^2}=2\xi(r)\frac{\vec l\cdot\vec s}{\hbar^2}$
+
+考虑洛伦兹变换中$\vec v\to\vec v+\dd{\vec v}$，矩阵变化$A(\vec v+\dd{\vec v})=A(\vec v)+\dd{\vec v}\cdot\nabla_{\vec v}A(\vec v)$
+
+$t: \vec x'=A(\vec\beta)\vec x,\quad t+\delta t:\vec x''=A(\vec\beta+\delta\vec\beta)\vec x$
+
+$\vec x',\vec x''$的关系：$\vec x''=A_T\vec x'$,  $A_T=A(\vec \beta+\delta\vec\beta)A^{-1}(\vec\beta)=A(\vec \beta+\delta\vec\beta)A(-\vec \beta)$
+
+取$\vec\beta=(0,\beta,0,0),\delta\vec\beta=(0,\delta\beta_1,\delta\beta_2,0)$, $A(\vec\beta)=\begin{pmatrix}\gamma&-\gamma\beta&0&0\\-\gamma\beta&\gamma&0&0\\0&0&1&0\\0&0&0&-1\end{pmatrix}$​
+
+对任意的$\vec\beta$，$A(\vec\beta)=e^{\hat\beta\cdot \vec K\tanh^{-1}\beta}=\begin{pmatrix}\gamma&-\gamma\beta_1&-\gamma\beta_2&-\gamma\beta_3\\-\gamma\beta_1&\frac{1+(\gamma-1)\beta_1^2}{\beta^2}&\frac{(\gamma-1)\beta_1\beta_2}{\beta^2}&\frac{(\gamma-1)\beta_1\beta_3}{\beta^2}\\-\gamma\beta_2&-\frac{(\gamma-1)\beta_1\beta_2}{\beta^2}&\frac{1+(\gamma-1)\beta_2^2}{\beta^2}&\frac{(\gamma-1)\beta_2\beta_3}{\beta^2}\\-\gamma\beta_3&-\frac{(\gamma-1)\beta_1\beta_3}{\beta^2}&-\frac{(\gamma-1)\beta_2\beta_3}{\beta^2}&\frac{1+(\gamma-1)\beta_3^2}{\beta^2}\end{pmatrix}$
+
+由此算出 $A_T=I-\frac{\gamma-1}{\beta^2}(\vec\beta\times\delta\vec\beta)\cdot\vec S-(\gamma^2\delta\vec\beta_{\|}+\gamma\vec\beta_\perp)\cdot\vec K=A(\Delta\beta)R(\Delta\Omega)$，
+
+其中Boost部分 $A(\Delta\beta)=I-\Delta\vec\beta\cdot\vec K$，Rotation部分$R(\Delta\Omega)=I-\Delta\vec\Omega\cdot\vec S$，变化量
+$$
+\begin{cases}
+\Delta\vec\beta=\gamma^2\delta\beta_{\|}+\gamma\delta\beta_\perp\\
+\Delta\vec\Omega=\frac{\gamma-1}{\beta^2}(\vec\beta\times\delta\vec\beta)=\frac{\gamma^2}{\gamma+1}(\vec\beta\times\delta\vec\beta)\approx\frac{1}{2c^2}(\vec v\times\delta\vec v)
+\end{cases}
+$$
+根据转动系导数 $(\dv{G}{t})_{Rot}=(\dv{\vec G}{t})_{test}+\vec\omega_T\times\vec G$，
+
+这里的角速度可看作$\vec \omega_T=\lim_{\delta t\to0}\frac{\Delta\Omega}{\delta t}=\frac{\vec v\times\vec a}{2c^2}$，即Thomas进动
+
+在量子情形中，$\dv{\vec S}{t}=(\dv{\vec S}{t})_{test}+\vec \omega_T\times\vec S,\quad(\dv{\vec S}{t})_{test}=\vec\mu_e\times\vec B$，从哈密顿量即可得到
+
+即$\dv{\vec S}{t}=\vec S\times(\frac{g\mu_B}{\hbar}\vec B-\vec \omega_T)$，加速度$\vec a=\frac{e}m\vec E$，即$\vec\omega_T=-\frac{Ze^2}{4\pi\varepsilon_0r^2}\frac{-1}{2m^2c^2}\vec l$
+
+进而进动部分$\hat H_2^{so}=\vec S\cdot\vec \omega_T=-\frac{1}2(\frac{e\hbar}{mc})^2\frac{Z}{4\pi\varepsilon_0r^3}\vec l\cdot\vec s=-\xi(r)\vec l\cdot\vec s$
+
+总哈密顿量就是 $\hat H^{so}=\hat H_1^{so}+\hat H_2^{so}=\xi(r)\vec l\cdot\vec s,\quad \xi(r)=O(\alpha^2)$
+
+考虑飞机圆周运动	$S$:飞机系  $S'$: Lab frame(LF)
+
+考虑短时间：$\|$方向运动$L$, $\perp$方向运动$W$，S中$\varphi=\frac{W}L$，S'中$\varphi'=\frac{W}{\frac{L}\gamma}=\gamma\varphi$
+
+加和就是$\sum\varphi'=2\pi\gamma$，多出来的部分就是进动角$\Delta\theta=2\pi(1-\gamma)$
+
+进动角速度和角速度之比 $\frac{\omega_T}\omega=\frac{\Delta\theta}{2\pi}=1-\gamma=-\frac{1}{\sqrt{1-\beta^2}}+1\approx-\frac{1}2\beta^2$
+
+由此得到$\omega_T=-\frac{1}2\beta^2\Omega=-\frac{1}{2c^2}v\cdot a=\frac{1}{2c^2}\vec a\times\vec v$
+
+Rotation算符$S$和Boost算符$K$
+
+转动：$S_1=\begin{pmatrix}0&0&0&0\\0&0&0&0\\0&0&0&1\\0&0&-1&0\end{pmatrix},\quad S_2=\begin{pmatrix}0&0&0&0\\0&0&0&-1\\0&0&0&0\\0&-1&0&0\end{pmatrix},\quad S_3=\begin{pmatrix}0&0&0&0\\0&0&-1&0\\0&1&0&0\\0&0&0&0\end{pmatrix}$
+
+分别为绕$x,y,z$轴，如$e^{\theta S_1}=\begin{pmatrix}1&0&0&0\\0&1&0&0\\0&0&\cos\theta&\sin\theta\\0&0&-\sin\theta&\cos\theta\end{pmatrix}$
+
+Boost: $K_1=\begin{pmatrix}0&1&0&0\\1&0&0&0\\0&0&0&0\\0&0&0&0\end{pmatrix},\quad K_2=\begin{pmatrix}0&0&1&0\\0&0&0&0\\1&0&0&0\\0&0&0&0\end{pmatrix},\quad K_3=\begin{pmatrix}0&0&0&1\\0&0&0&0\\0&0&0&0\\1&0&0&0\end{pmatrix}$
+
+分别为$x,y,z$轴上的boost，如$e^{-\zeta K_1}=\begin{pmatrix}\cosh\zeta&-\sinh\zeta&0&0\\-\sinh\zeta&\cosh\zeta&0&0\\0&0&1&0\\0&0&0&1\end{pmatrix}$
+
+算符满足对易关系 $[S_i,S_j]=\varepsilon_{ijk}S_k,\quad [K_i,K_j]=-\varepsilon_{ijk}S_k,[S_i,K_j]=\varepsilon_{ijk}K_k$
+
+Boost代数不封闭
+
+由此可用Boost代数进行前面计算，一般洛伦兹矩阵$A(\hat\beta)=e^{\hat\beta\cdot K\varphi},\varphi=\tanh^{-1}\beta$​
+
+相应进动部分$A_T=A(\beta+\delta\beta)A(-\beta)=A(\hat\beta+\delta\hat\beta,\varphi+\delta\varphi)A(\hat\beta,-\varphi)=e^{(\hat\beta+\delta\hat\beta)\cdot K(\varphi+\delta\varphi)}e^{-\hat\beta\cdot K\varphi}$
+
+利用CBH等式$e^{A}e^{B}=e^{A+B+\frac12[A,B]+\frac{1}{12}([A,[A,B]]+[B,[B,A]])}$可以化简得到
+
+$A_T=1+\hat\beta\cdot K\delta\varphi+\delta\hat\beta\cdot K\varphi-\frac12[\delta\hat\beta\cdot K,\beta\cdot K]\varphi^2$
+
+利用$[K_r,K_s]=-\varepsilon_{rst}S_t$有$[\delta\hat \beta\cdot K,\hat\beta\cdot\hat K]=-(\delta\beta\times\beta)\cdot S$
+
+进而$A_T=1+(\hat\beta\cdot K)\delta\varphi+(\delta\hat\beta\cdot K)\varphi-\frac12\varphi^2(\delta\hat\beta\times\beta)\cdot S$
+
+与$\vec S$相关的代表rotation, 其转角为$\Omega_T\Delta t=\frac12\varphi^2(\delta\hat\beta\times\beta)=\frac{1}2(\tanh^{-1}\beta)^2\frac{\delta\vec v\times\vec v}{c^2}$
+
+因此角速度$\Omega_T=\frac{1}2(\tanh^{-1}\beta)^2\frac{\vec a\times\vec v}{c}$
+
+并旋量->并矢	$SO(3)$旋量表示->$SO(3,1)$旋量表示
+
+$O(2)$ rotation: $R=\begin{pmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{pmatrix},\det|R|=1$	$\tau=\begin{pmatrix}\cos 2\theta&\sin2\theta\\\sin2\theta&-\cos2\theta\end{pmatrix},\det|\tau|=1$
+
+作$\mathbb R^3\to \mathbb R\times\mathbb C$的映射：$(x,y,z)\to(z,x+iy)$，并取旋量$\tau=x\sigma_x+y\sigma_y+z\sigma_z=\begin{pmatrix}z&x-iy\\x+iy&-z\end{pmatrix}$
+
+则$\hat e_x\to \sigma_x,\hat e_y\to\sigma_y,\hat e_z\to \sigma_z$
+
+旋量$\tau$把旋量$a=a_x\sigma_x+a_y\sigma_y+a_z\sigma_z$沿着与$(x,y,z)$垂直的面反射至$b=b_x\sigma_x+b_y\sigma_y+b_z\sigma_z$
+
+给定$\hat n$，矢量可写为平行垂直分解$a=(a\cdot n)\hat n+(a-(a\cdot n)\hat n)=a_{\|}+a_\perp$，
+
+沿与$\hat n$垂直的面反射为 $a'=-(a\cdot n)n+(a-(a\cdot n)n)=a-2(a\cdot n)n$ （Euler-Rodrigues公式）
+
+用$\sigma$作用有$\sigma\cdot a'=\sigma\cdot a-2(a\cdot n)(\sigma\cdot n)$
+
+利用$(\sigma\cdot a)(\sigma\cdot b)=a\cdot b+i\sigma\cdot(a\times b)$有$a\cdot b=\frac12\{(\sigma\cdot a),(\sigma\cdot b)\}$
+
+进而$\sigma\cdot a'=-(\sigma\cdot n)(\sigma\cdot a)(\sigma\cdot n)$，即在垂直$\vec n$面的反射作用
+
+连续两次反射：$\alpha,\beta$，记$R=(\sigma\cdot \beta)(\sigma\cdot \alpha)$，则$\sigma a'=R(\sigma\cdot a)R$，$R$为Euler-Rodrigues矩阵
+
+$R$的计算：设$\alpha,\beta$夹角$2\varphi$且$\hat n$垂直$\alpha,\beta$，则
+
+$R=(\alpha\cdot \beta)-i(\alpha\times\beta)\cdot\sigma=\cos\frac\varphi2-i\sin\frac\varphi2\hat n\cdot\sigma=e^{i\frac\varphi2\hat n\cdot\sigma}$，且$R(4\pi,\hat n)=1,R(2\pi,\hat n)=1$
+
+$SO(3)$: $a\to a'=\tilde Ra$，	$SU(2)$: $\sigma\cdot a\to \sigma\cdot a'=R(\sigma\cdot a)R$​
+
+$SU(2)$生成元：$X_{12}=-\frac i2\sigma_1\sigma_2,X_{23}=-\frac i2\sigma_2\sigma_3, X_{31}=-\frac i2\sigma_3\sigma_1$
+
+考虑$SO(3,1)\to SL(2,\C)$
+
+从$\R^{3,1}\to (\R^2\times\C)$: $(t,x,y,z)\to (t+z,t-z,x+iy)$即光锥坐标
+
+取$Z=\begin{pmatrix}t+z&x-iy\\x+iy&t-z\end{pmatrix}$，令$K^i=(\pm)\sigma_i,S^i=i\sigma_i$
+
+对易关系$[K_i,K_j]=2\varepsilon_{ijk}S_k,[S_i,S_j]=-2\varepsilon_{ijk}S_k,[S_i,K_j]=-2\varepsilon_{ijk}K_k,[K_i,S_j]=-2\varepsilon_{ijk}K_k$
+
+$R^{1,1}\times\C$空间的旋量基：$e,\sigma_1,\sigma_2,\sigma_3$	$Z=te+x\sigma_1+y\sigma_2+z\sigma_3$
+
+Rotation $U_\theta=\begin{pmatrix}e^{-i\theta}&0\\0&e^{i\theta}\end{pmatrix},\quad U_\theta ZU_\theta^\dagger=\begin{pmatrix}t+z&e^{-2i\theta}(x-iy)\\e^{2i\theta}(x+iy)&t-z\end{pmatrix}$，即$x+iy\to e^{2i\theta}(x+iy)$
+
+Boost $M_r=\begin{pmatrix}r&0\\0&r^{-1}\end{pmatrix},\quad M_rZM_r^\dagger=\begin{pmatrix}r^2(t+z)&x-iy\\x+iy&r^{-2}(t-z)\end{pmatrix}$
+
+相当于$\begin{cases}t'=\frac12(r^2+r^{-2})t+\frac12(r^2-r^{-2})z\\z'=\frac12(r^2-r^{-2})t+\frac12(r^2+r^{-2})z\end{cases}$
+
+令$r=e^{\frac uz}$，则相当于$\begin{cases}t'=\cosh u\  t+\sinh u\ z\\z'=\sinh u\ t+\cosh u\ z\end{cases}$	也可由$e^{u\sigma_x}=\begin{pmatrix}\cosh u&\sinh u\\\sinh u&\cosh u\end{pmatrix}$得到
+
+若用$J_i=-\frac i2S_i,K_i=-\frac i2\Kappa_i$(前面的$K$)，$N_i^\pm=\frac12(J_i\pm iK_i)$
+
+对易关系$[N_i^-,N_j^-]=i\varepsilon_{ijk}N_k^-,[N_i^+,N_j^+]=i\varepsilon_{ijk}N_k^+,[N_i^+,N_j^-]=0$
+
+即两部分对易关系独立，亦即$SO(3,1)\sim SU(2)_L\otimes SU(2)_R$，分解为Weyl spinor
+
+$H=\sigma\cdot r=\begin{pmatrix}z&x-iy\\x+iy&-z\end{pmatrix}=\begin{pmatrix}\xi_1&\xi_2^*\\\xi_2&-\xi_1\end{pmatrix}$	2D复空间$\xi=\begin{pmatrix}\xi_1\\\xi_2\end{pmatrix}$
+
+令$S=\begin{pmatrix}0&-1\\1&0\end{pmatrix}=S^*$，构造对偶旋量$\chi=S\xi^*=\begin{pmatrix}-\xi_2^*\\\xi_1^*\end{pmatrix}$
+
+酉变换$U=\begin{pmatrix}a&b\\-b^*&a^*\end{pmatrix}$，其满足$U=SU^*S^{-1}\implies US=SU^*$
+
+在变换$\xi\to U\xi^*$下，$\chi\to (SU^*S^{-1})S\xi^*=U\chi$
+
+定义$h=\xi\chi^\dagger=\begin{pmatrix}-\xi_1\xi_2&\xi_1^2\\-\xi_2^2&\xi_1\xi_2\end{pmatrix}$，则$h\to UhU^\dagger$
+
+令$h=H$得 $\begin{cases}x=\frac12(\xi_1^2-\xi_2^2)\\y=\frac i2(\xi_1^2+\xi_2^2)\\z=-\xi_1\xi_2\end{cases},\quad\begin{cases}\xi_1=\pm\sqrt{x-iy}\\\xi_2=\pm\sqrt{-x-iy}\end{cases}$
+
+$\begin{pmatrix}\xi_1\\\xi_2\end{pmatrix}$为旋量的2分量形式
+
+$SO(3,1)=SU(2)_A\otimes SU(2)_B$	$\varphi_A,\varphi_B$分别为$SU(2)_{A},SU(2)_B$的(Weyl)旋量
+
+$\varphi_A$在$SU(2)_A$下变换，在$SU(2)_B$作用下不变，$\varphi_B$不同
+
+$\begin{cases}\varphi_A\to e^{i\alpha_A N^+}\varphi_A;& \varphi_A\to e^{i\alpha_B N^-}\varphi_A=\varphi_A\\\varphi_B\to e^{i\alpha_A N^+}\varphi_B=\varphi_B;& \varphi_B\to e^{i\alpha_B N^-}\varphi_B\end{cases}$​
+
+构造Lorentz $SO(3,1)$的Dirac旋量
+$$
+\begin{cases}
+e^{i\alpha_AN^+}\varphi_B=\sum_{n=0}^\infty\frac{1}{n!}(i\alpha_AN^+)^n\varphi_B=\varphi_B\implies N^+_i\varphi_B=0\implies S_i\varphi_B=-iK_i\varphi_B\\
+e^{i\alpha_BN^-}\varphi_A=\sum_{n=0}^\infty\frac{1}{n!}(i\alpha_BN^-)^n\varphi_A=\varphi_A\implies N^-_i\varphi_A=0\implies S_i\varphi_A=iK_i\varphi_A
+\end{cases}
+$$
+$\varphi_A$: $J_i=-\frac i2S_i=\frac{\sigma_i}2,\quad K_i=-iJ_i=-i\frac{\sigma_i}2$
+
+$\varphi_B$: $J_i=\frac{\sigma_i}2,\quad K_i=iJ_i=i\frac{\sigma_i}2$
+
+Lorentz变换：$\varphi_A\to e^{i(\theta^iJ_i+\varphi^iK_i)}\varphi_A=e^{\frac i2(\sigma\cdot\theta-i\sigma\cdot\varphi)}\varphi_A$
+
+即 $\begin{cases}\varphi_A\to e^{\frac i2\sigma\cdot(\theta-i\varphi)}\varphi_A\\\varphi^\dagger_A\to \varphi_A^\dagger e^{-\frac i2\sigma\cdot(\theta+i\varphi)}\end{cases},\quad \begin{cases}\varphi_B\to e^{\frac i2\sigma\cdot(\theta+i\varphi)}\varphi_B\\\varphi^\dagger_B\to \varphi_B^\dagger e^{-\frac i2\sigma\cdot(\theta-i\varphi)}\end{cases}$
+
+一个静止的例子boost到动量$p$的态	$\varphi_{A,B}(0)\to\varphi_{A,B}(p)$
+
+沿着$\hat p$作$\varphi$的boost变换	$\varphi=\varphi\hat p$
+$$
+\begin{aligned}
+\varphi_A(p)&=e^{\sigma\cdot\frac\varphi2}\varphi_A(0)\\&=\qty[\sum_{n=0}^\infty\frac{1}{(2n)!}\qty(\sigma\cdot\frac\varphi2)^{2n}+\sum_{n=0}^\infty\frac{1}{(2n+1)!}\qty(\sigma\cdot\frac\varphi2)^{2n+1}]\varphi_A(0)\\
+&=\qty[\sum_{n=0}^{\infty}\frac{1}{(2n)!}\qty(\frac\varphi2)^n+\sigma\cdot\hat p\sum_{n=0}^\infty\frac{1}{(2n+1)!}\qty(\frac\varphi2)^{2n+1}]\varphi_A(0)\\&=\qty(\cosh\frac\varphi2+\sigma\cdot\hat p\sinh\frac\varphi2)\varphi_A(0)
+\end{aligned}
+$$
+代入$\cosh\varphi=\gamma=\frac Em$，$|p|=\frac{p}{m\sqrt{\gamma^2-1}}$可得
+$$
+\varphi_A=\frac{m(\gamma+1)+\sigma\cdot p}{\sqrt{2m^2(\gamma+1)}}\varphi_A(0)=\frac{E+m+\sigma\cdot p}{\sqrt{2m(E+m)}}\varphi_A(0)
+$$
+同理
+$$
+\varphi_B=\frac{E+m-\sigma\cdot p}{\sqrt{2m(E+m)}}\varphi_B(0)
+$$
+静止系下$p=0,\varphi=0$, $\begin{cases}\varphi_A\to e^{\frac i2\sigma\cdot\theta}\varphi_A\\\varphi_B=e^{\frac i2\sigma\cdot\theta}\varphi_B\end{cases}$
+
+若$\varphi_A(0)=\varphi_B(0)$，则$\varphi_A(p)=\frac{E+m+\sigma\cdot p}{E+m-\sigma\cdot p}\varphi_B(p)$，即$\begin{cases}\varphi_A(p)=\frac{E+\sigma\cdot p}m\varphi_B(p)\\\varphi_B(p)=\frac{E-\sigma\cdot p}m\varphi_A(p)\end{cases}$
+
+亦即
+$$
+\begin{pmatrix}-m&E+\sigma\cdot p\\E-\sigma\cdot p&-m\end{pmatrix}\begin{pmatrix}\varphi_A(p)\\\varphi_B(p)\end{pmatrix}=0
+$$
+定义Dirac旋量(spinor)  $\psi=\begin{pmatrix}\varphi_A\\\varphi_B\end{pmatrix}$以及矩阵$\gamma^0=\begin{pmatrix}0&I\\I&0\end{pmatrix},\gamma^i=\begin{pmatrix}0&-\sigma_i\\\sigma_i&0\end{pmatrix}$
+
+得到$(\gamma^\mu p_\mu-m)\psi(p)=0$
+
+$E\sim i\pdv{t},p\sim-i\nabla$，即有Dirac方程 $(i\partial\!\!\!/-m)\psi=0,\quad\partial\!\!\!/=\gamma^\mu\partial_\mu$
+
+$A^\mu,A_\mu$分别为逆变，协变	$x^\mu=(t,\vec x)$	$(x_\mu)=\langle x,e_\mu\rangle=x^\nu g_{\nu \mu}=(t,-\vec x)$	$\partial^\mu=(\partial_0,-\nabla),\partial_\mu=(\partial_0,\nabla)$
+
+逆变$A^\mu\to A'^\mu=\pdv{x'^\mu}{x^\nu}A^\nu$	协变$B_\mu\to B_\mu'=\pdv{x^\nu}{x'^\mu}B_\mu$
+
+引入$\alpha=\gamma^0\gamma^i=\begin{pmatrix}\sigma_i&0\\0&-\sigma_i\end{pmatrix},\beta=\gamma^0=\begin{pmatrix}0&1\\1&0\end{pmatrix}$，
+
+哈密顿量$\hat H=c\alpha\cdot p+\beta mc^2$, $p=0$时$\hat H=\beta mc^2$
+
+Weyl representation: $\alpha^W=\begin{pmatrix}\sigma&0\\0&-\sigma\end{pmatrix},\beta^W=\begin{pmatrix}0&1\\1&0\end{pmatrix}$
+
+Dirac-Pauli representation $\alpha^{D-P}=\begin{pmatrix}0&\sigma\\\sigma&0\end{pmatrix},\beta^{D-P}=\begin{pmatrix}1&0\\0&-1\end{pmatrix}$
+
+转换矩阵$W=\frac{1}{\sqrt 2}\begin{pmatrix}1&-1\\1&1\end{pmatrix}$，$\alpha_i^{W}=W^T\alpha_i^{D-P}W,\beta^W=W^T\beta^{D-P}W$
+
+$i\hbar\pdv{t}\psi=\hat H\psi,\hat H=c\alpha\cdot p+\beta mc^2$
+
+$\dot x=c\alpha_x$，即$\hat v=c\hat \alpha$，$v=c$，但$\langle v\rangle_H=\frac{c^2p}{E}<c$
+
+模式展开 $\psi(r,t)=\frac{1}{\hbar^{\frac32}}\int[C^+(p)e^{-i\omega t}+C^-(p)e^{i\omega t}]e^{\frac{ip\cdot r}\hbar}\dd[3]p,\omega=\frac E\hbar,E=\sqrt{c^2p^2+m^2c^4}$
+
+其中$C^+(p)=a_1u_1+a_2u_2,\quad C^-(p)=a_3u_3+a_4u_4$
+
+$u_1=\begin{pmatrix}1\\0\\kp_3\\kp_+\end{pmatrix},\quad u_2=\begin{pmatrix}0\\1\\kp_-\\-kp_3\end{pmatrix},\quad u_3=\begin{pmatrix}-kp_3\\-kp_+\\1\\0\end{pmatrix},\quad u_4=\begin{pmatrix}-kp_-\\kp_3\\0\\1\end{pmatrix}$
+
+其中$k=\frac{c}{E+mc^2},p_\pm=p_1\pm ip_2$
+
+平均速度$\langle v\rangle=\langle \dot t\rangle=c\langle \alpha\rangle=c\int(C^{+*}\alpha C^++C^{-*}\alpha C^-)\dd[3]p+2c\int\Re(C^{+*}\alpha C^-)e^{2i\omega t}\dd[3]p$​
+
+第二项代表量子拍（quantum beating）。利用$C^{\pm *}\alpha C^\pm=\pm\frac{cp}EC^{\pm*}C^\pm$可得
+$$
+\langle\dot r\rangle=v+2c\int K(p)\sin(2\omega t+\varphi(p))\dd[3]p
+$$
+其中$v=c\int\frac{p}{mc}(1+(\frac{p}{mc})^2)^{-\frac12}(C^{+*}C^++C^{-*}C^-)\dd[3]p$，
+
+$K(p)=|C^{-*}\alpha C^+|,\varphi(p)=\tan^{-1}\frac{\Re(C^{-*}\alpha C^+)}{\Im(C^{-*}\alpha C^+)}$
+
+进而
+$$
+\langle r\rangle=r^0+vt-\bar\lambda\int K(p)\frac{1}{\sqrt{1+(\frac{p}{mc})^2}}\cos(2\omega t+\varphi(p))\dd[3]p,\quad \bar\lambda=\frac{\hbar}{mc}\sim 2pm
+$$
+$t=0$时，$\psi(r,0)=\begin{pmatrix}1\\0\\0\\0\end{pmatrix}f(\frac{r}{r_0}),\quad f(\frac{r}{r_0})(\frac{2}{\pi r_0^3})^{\frac 32}e^{-\frac{r^2}{r_0^2}}$
+
+而$C^+(p)=\frac{f(\frac p\eta)}{1+k^2p^2}\begin{pmatrix}1\\0\\kp_3\\kp_+\end{pmatrix},\quad C^-(p)=\frac{f(\frac p\eta)}{1+k^2p^2}\begin{pmatrix}k^2p^2\\0\\-kp_3\\-kp_+\end{pmatrix}$
+
+利用$\psi(r,t=0)\sim \int [C^+(p)+C^-(p)]e^{\frac{ip\cdot r}\hbar}\dd[3]p$ 可知$\psi(p,t=0)\propto f(\frac p\eta)\begin{pmatrix}1\\0\\0\\0\end{pmatrix}$
+
+$t>0$，$\psi(r,t)=\frac{1}{\hbar^{\frac32}}[\begin{pmatrix}1\\0\\kp_3\\kp_+\end{pmatrix}e^{-i\omega t}+\begin{pmatrix}k^2p^2\\0\\-kp_3\\-kp_+\end{pmatrix}e^{i\omega t}]\frac{f(\frac p\eta)}{1+k^2p^2}e^{\frac{ip\cdot r}\hbar}\dd[3]p$
+
+利用$r_0>\bar\lambda,p\ll mc$可近似$k\approx\frac{1}{2mc}$，
+
+$\psi(r,t)$的半经典轨道：近似有$K_1^{\alpha_1}(p)\approx \frac{f^2(\frac p\eta)}{2mc}\sqrt{p_1^2+p_2^2},\quad K_2^{\alpha_2}(p)=K_1^{\alpha_1}(p),\quad K_3^{\alpha_3}=\frac{f^2(\frac p\eta)}{2mc}p_3$
+
+相应$\tan\varphi_i=\frac{\Re(C^{-*}\alpha_iC^+)}{\Im(C^{-*}\alpha_iC^+)}$，即$\begin{cases}\tan\varphi_1=-\frac{p_1}{p_2}\\\tan\varphi_2=\frac{p_2}{p_1}\\\tan\varphi_3=\infty\end{cases}$，即$\begin{cases}\varphi_1=\varphi+\pi\\\varphi_2=\varphi\\\varphi_3=\frac\pi2\end{cases}$
+
+取球坐标$\begin{cases}p_1=p\sin\theta\cos\varphi\\p_2=p\sin\theta\sin\varphi\\p_3=p\cos\theta\end{cases}$，进而$K_1=K_2=\frac{f^2(\frac p\eta)}{2mc}p\sin\theta,K_3=\frac{f^2(\frac p\eta)}{2mc}p\cos\theta$
+
+$\langle x_i\rangle$——电子颤动(jitter)的半经典轨道
+
+积分得到 $\langle x_1\rangle=-I\int_0^{2\pi}\bar\lambda\sin(2\omega t+\varphi)\dd\varphi$，$I=\frac{\bar\lambda}{32r_0}(\frac 2\pi)^{\frac 32}$，
+
+里面关于$\varphi$的轨道 $\langle x_1\rangle_\varphi=-I\bar\lambda\sin(2\omega t+\varphi)$，同理$\langle x_2\rangle_\varphi=-I\bar\lambda\cos(2\omega t+\varphi)$
+
+磁矩$\mu=\frac{1}{2c}\langle r\times j\rangle=\frac{e}{2c}\langle r\times\dot r\rangle$，
+
+其中$\langle r\times\dot r\rangle=c\langle r\times\alpha\rangle\to i\hbar c\langle \nabla_p\times\alpha\rangle$，经过计算得到
+
+$\langle r\times\dot r\rangle_1=\langle r\times\dot r\rangle_2=0,\quad \langle r\times\dot r\rangle_3=\frac\hbar m(1-\cos 2\omega t)$，
+
+从而$\mu_1=\mu_2=0,\quad \mu_3=\frac{e\hbar}{2mc}(1-\cos2\omega t)$
+
+考虑绕核运动将会有修正效应，设电子速度$\vec v$，模型化为垂直原子平面的圆盘，进动角$\varphi$，圆周运动角$\psi$
+
+实验室系(LF)下质点速度$\begin{cases}u_x=u_0\cos\psi\cos\varphi-v\\u_y=u_0\cos\psi\sin\varphi\\u_z=-u_0\sin\psi\end{cases}$，合起来$u^2=u_0^2+v^2-2vu_0\cos\psi\cos\varphi$
+
+即$\gamma=\frac{1}{\sqrt{1-\frac{u^2}{c^2}}}\approx 1+\frac{u_0^2+v^2}{2c}-\frac{vu_0}{c^2}\cos\psi\cos\varphi$
+
+实验系(LF)为$S'$，自旋系(SF)为$S$，关联$\begin{cases}x'=\gamma(x-vt)\\t'=\gamma(t-\frac{vx}{c^2})\\y'=y\\z'=z\end{cases}$，
+
+在LF, $t'=0\implies$ SF, $t=\frac{vx}{c^2},x=\frac{c^2}vt$且$x=r\sin(\omega t+\psi)\cos\varphi$
+
+按$\omega t$展开: $x=r\cos\varphi[\sin\psi+(\omega t)\cos\psi+O(\omega t)^2]$
+
+代入$x=\frac{c^2}vt$得到$t=\frac{vr}{c^2}\cos\varphi\sin\psi$
+
+ 从而$z'(t'=0)=z(t'=0)=z(t=\frac{vr}{c^2}\cos\varphi\sin\psi)=r\cos\qty[\omega(\frac{vr}{c^2}\cos\varphi\sin\psi)+\psi]$
+
+近似为$z'(t'=0)=r\cos\psi-\frac{vr^2}{c^2}\omega\cos\varphi\sin^2\psi$
+
+质心位置 	$\gamma_{dm}=\gamma(x',y',z')_{dm}$
+
+$z'_{CM}=\langle \gamma z'\rangle_\psi$，近似计算得到$\gamma z'=-r\cos^2\psi\cos\varphi\frac{u_0v}{c^2}-\frac{vr^2\omega}{c^2}\cos\varphi\sin^2\psi$
+
+从而$z'_{CM}=-\frac{vr^2\omega}{c^2}\cos\varphi$
+
+自旋 $S=|S|=|r\times p|=Mr^2\omega,\quad r^2\omega=\frac SM$，即$z_{CM}'=-\frac{vS}{Mc^2}\cos\varphi$
+
+力$F=-M\frac{v^2}R$，自旋导数$\dv{S}{t}=(z\times F)_\perp=Fz\cos\varphi=\frac{v^3S}{Rc}\cos^2\varphi$
+
+进动角速度$\dv{\varphi}{t}=\frac{1}S\dv{S}{t}=\frac{v^3}{Rc^2}\cos^2\varphi$
+
+令$\Omega=\frac vR,\beta=\frac vc$则$\dv{\varphi}{t}=\Omega\beta^2\cos^2\varphi$，均值$\langle\dv{\varphi}{t}\rangle_\varphi=\frac{1}2\Omega\beta^2=\Omega_T$
+
+加速度$a=-v\Omega$，故$\Omega_T=-\frac12\frac{a\cdot v}{c^2},\frac{\Omega_T}\Omega=\frac12\beta^2$，
+
+考虑多电子原子，$\hat H=\sum_i(-\frac{\hbar^2}{2m}\nabla_i^2-\frac{Ze^2}{r_i})+\sum_{ij}\frac{e^2}{r_{ij}}+\sum_i\zeta(r_i)\hat l_i\cdot\hat s_i$
+
+$\zeta(r)\propto\frac12\frac{Z\alpha^2}{r^3}$，$Z\uparrow,r\downarrow\implies\zeta\uparrow$，自旋轨道耦合$E_{SOC}\uparrow$
+
+例：$^3D_1,\ket{L=2,S=1,J=1,M_J=0}$
+
+最高权态出发 $\ket{L=2,S=1,J=3,M_J=3}=\ket{L=2,S=1,M_L=2,M_S=1}$
+
+$\hat J_-\ket{2133}(LSJM_J)=(\hat L_-+\hat S_-)\ket{2121}(LSM_LM_S)$
+
+利用$J_\pm\ket{JM_j}=\sqrt{J(J+1)-M_J(M_J\pm1)}\ket{JM_J\pm1}$得
+
+$\ket{2132}=\frac{2}{\sqrt 6}\ket{2111}+\frac{1}{\sqrt 3}\ket{2120}$
+
+$J$降1：$\ket{2122}=a\ket{2111}+b\ket{2120}$
+
+要求$\langle 2122|2132\rangle=0$与归一 $\implies \ket{2122}=-\frac{1}{\sqrt 3}\ket{2111}+\sqrt{\frac23}\ket{2120}$
+
+同理$\ket{2111}=-\frac{1}{\sqrt{10}}\ket{2101}+\sqrt{\frac{3}{10}}\ket{2110}-\sqrt{\frac 35}\ket{212-1}$
+
+$\ket{2110}=\sqrt{\frac{3}{10}}\ket{21-11}-\sqrt{\frac 25}\ket{2100}+\sqrt{\frac3{10}}\ket{211-1}$
+
+系数记为C-G系数 $\begin{pmatrix}2&1&1\\-1&1&0\end{pmatrix}$等，即$\begin{pmatrix}j_1&j_2&J\\m_1&m_2&M\end{pmatrix}$
+
+亦即$\ket{lsjm_j}=\sum_{m_lm_s}\ket{lsm_lm_s}\bra{lsm_lm_s}lsjm_j\rangle$，$\bra{lsm_lm_s}lsjm_j\rangle$为C-G系数
+
+$3\Gamma$ Coefficient (Fano $V$ Coefficient)
+
+$\Gamma_1\otimes\Gamma_2=\sum_{i}c_i\Gamma_i$	$\ket{\Gamma_1,\Gamma_2,\Gamma,M}=\sum_{M_1M_2}\bra{\Gamma_1M_1\Gamma_2M_2}\Gamma M\rangle\ket{\Gamma_1M_1}\ket{\Gamma_2M_2}$
+
+归一关系 $\sum_{M_1M_2}\bra{\Gamma_1M_1\Gamma_2M_2}\Gamma M\rangle\bra{\Gamma_1M_1\Gamma_2M_2}\Gamma' M'\rangle=\delta_{\Gamma'\Gamma}\delta_{M'M}$
+
+交换关系 $\begin{pmatrix}\Gamma_2&\Gamma_1&\Gamma_3\\M_2&M_1&M_3\end{pmatrix}=(-)^{\Gamma_1+\Gamma_2+\Gamma_3}\begin{pmatrix}\Gamma_1&\Gamma_2&\Gamma_3\\M_1&M_2&M_3\end{pmatrix}$
+
+Wigner-Eckart定理 $\bra{\Gamma_1M_1}\hat O_{M_2}^{\Gamma_2}\ket{\Gamma_3M_3}\propto\begin{pmatrix}\Gamma_1&\Gamma_2&\Gamma_3\\M_1&M_2&M_3\end{pmatrix}\bra{\Gamma_1}|O^{\Gamma_2}|\ket{\Gamma_3}$
+
+自旋极化的电子源
+
+$\psi_{K}^{p-e,k_e}=\sum_{p^\alpha,R_N^\alpha}c_{p\alpha}(R_N^\alpha)\varphi_{p^\alpha}^{AO}(r_e-R_N^\alpha)\sim\sum_{p^\alpha,R_N^\alpha}e^{iK\cdot R_N^\alpha}\tilde c_p(R_N^\alpha)\varphi_{p^\alpha}^{AO}(r_\alpha-R_N^\alpha)$
+
+$K=0$时 $\varphi_0^{p-e,k_e}(r_e)=\sum_{p^\alpha,R_N^\alpha}\tilde c_p(R_N^\alpha)\varphi_{p^\alpha}^{AO}(r_e-R_N^\alpha)$
+
+苯分子	$C_6$对称群	$\ket{\psi_k}\sim\frac{1}{\sqrt n}(\ket{v_1}+e^{i\frac kn2\pi}\ket{v_2}+\cdots e^{i\frac kn(n-1)2\pi}\ket{v_n})$
+
+$n=6$: $H=\begin{pmatrix}\alpha&\beta&0&0&0&\beta\\\beta&\alpha&\beta&0&0&0\\0&\beta&\alpha&\beta&0&0\\0&0&\beta&\alpha&\beta&0\\0&0&0&\beta&\alpha&\beta\\\beta&0&0&0&\beta&\alpha\end{pmatrix}$	$\varepsilon_k=\alpha+2\beta\cos\frac\pi 3k$ $\beta<0$
+
+$\alpha+2\beta$成键	$\alpha-2\beta$反键
+
+$S_{1/2}$: $l=0,s=\frac12,j=\frac12$
+
+ $\ket{\frac12\frac12}_{j,m_j}=\ket{0\frac12\frac12\frac12}_{l,s,j,m_j}=\ket{0,\frac12,0,\frac12}_{l,s,m_l,m_s}=\ket{s\uparrow}$
+
+$\ket{\frac12,-\frac12}=\ket{0,\frac12,\frac12,-\frac12}=\ket{0,\frac12,0,-\frac12}=\ket{s,\downarrow}$
+
+$P_{3/2}$: $l=1,s=\frac12,j=\frac32$
+
+$\ket{\frac32\frac32}=\ket{1\frac121\frac12}=\ket{P^+\uparrow}$
+
+$\ket{\frac32\frac12}=\frac{1}{\sqrt 3}\ket{1\frac121-\frac12}-\sqrt{\frac23}\ket{1\frac120\frac12}=\frac{1}{\sqrt 3}\ket{P^+\downarrow}-\sqrt{\frac23}\ket{P^0\uparrow}$
+
+$\ket{\frac32,-\frac12}=-\frac{1}{\sqrt 3}\ket{1,\frac12,-1,\frac12}-\sqrt{\frac23}\ket{1,\frac12,0,-\frac12}=-\frac{1}{\sqrt3}\ket{P^-\uparrow}-\sqrt{\frac23}\ket{P^0\downarrow}$
+
+$\ket{\frac32,-\frac32}=-\ket{1,\frac12,-1,-\frac12}=\ket{P^-\downarrow}$
+
+$P_{1/2}$:
+
+$\ket{\frac12\frac12}=\sqrt{\frac23}\ket{1,\frac12,1,-\frac12}+\sqrt{\frac13}\ket{1,\frac12,0,\frac12}=\sqrt{\frac23}\ket{p^+\downarrow}+\sqrt{\frac13}\ket{p^0\uparrow}$
+
+$\ket{\frac12,-\frac12}=\sqrt{\frac23}\ket{1,\frac12,-1,\frac12}-\sqrt{\frac13}\ket{1,\frac12,0,-\frac12}=\sqrt{\frac23}\ket{p^-\uparrow}-\sqrt{\frac13}\ket{p^0\downarrow}$
+
+Sisyphus劈裂
+
+相向电场 $\vec e=\hat e_x,\vec e'=\hat e_y, E_0=E_0'$
+
+总电场 $E(z,t)=E_0\cos(\omega t-kz)\vec e+E_0'\cos(\omega t+kz)=E^+(z)e^{-i\omega t}+E^-(z)e^{i\omega t}$
+
+其中 $E^+(z)=\frac12(E_0\hat e_xe^{ikz}+E_0 \hat e_ye^{-ikz})=\frac{E_0}{\sqrt 2}(\vec\varepsilon_1\cos kz-i\vec\varepsilon_2 \sin kz)$
+
+$\vec\varepsilon_1=\frac{\hat e_x+\hat e_y}{\sqrt 2},\quad \vec\varepsilon_2=\frac{\hat e_y-\hat e_x}{\sqrt 2}$
+
+$z=0$: $E^+(z)\propto \frac{\hat e_x+\hat e_y}{\sqrt 2}$，线偏$\vec \varepsilon_1$	
+
+$z=\frac\lambda8: E^+(z)\propto\vec\varepsilon_1-i\varepsilon_2$, $\sigma^-$圆偏
+
+$z=\frac\lambda4: E^+(z)\propto -i\vec\varepsilon_2$，线偏$-\vec\varepsilon_2$
+
+$z=\frac{3\lambda}8:E^+(z)\propto\vec\varepsilon_1+i\vec\varepsilon_2$, $\sigma^+$圆偏
+
+$z=\frac\lambda2$: $E^+(z)\propto -\vec\varepsilon_1$，线偏$-\vec\varepsilon_1$
+
+Na: $^2S_{1/2}\leftrightarrow\ ^2P_{3/2}$，记为$g,e$	偏振梯度
+
+$\ket{g_{-\frac12}}\xrightarrow{\sigma_+}\ket{e_{+\frac12}}\propto (\frac{1}{\sqrt 3})^2$	$\ket{g_{\frac12}}\xrightarrow{\sigma_+}\ket{e_{\frac32}}\propto 1$
+
+$\delta E\propto |\bra fH\ket i|^2$	$P_{21}=\bra 2H\ket 1,\Omega=P_{21}\frac{E_0}\hbar$
+
+$\begin{cases}i\dv{c_1}{t}=-\frac\Omega2e^{i\delta t}c_2\\i\dv{c_2}{t}=-\frac\Omega2e^{-i\delta t}c_1\end{cases}$	$\begin{pmatrix}c_1'=c_1\\c_2'=c_2e^{i\delta t}\end{pmatrix}\implies \begin{cases}i\hbar \dv{c_1'}{t}=-\frac{\hbar\Omega}2c_2'\\i\hbar\dv{c_2'}{t}=-\frac{\hbar\Omega}2c_1'+\hbar \delta c_2'\end{cases}$
+
+即$i\hbar\begin{pmatrix}c_1'\\c_2'\end{pmatrix}=H\begin{pmatrix}c_1'\\c_2'\end{pmatrix},\quad H=\begin{pmatrix}0&-\frac{\hbar\Omega}2\\-\frac{\hbar\Omega}2&\hbar\delta\end{pmatrix}$
+
+$E_{12}=\frac{\hbar(\delta\pm\sqrt{\delta^2+\Omega^2})}2$	$\Omega\ll\delta$时 $\begin{cases}E_1=-\frac{\hbar}4\frac{\Omega^2}\delta\\E_2=\hbar\delta+\frac\hbar4\frac{\Omega^2}\delta\end{cases}$
+
+即$\delta E_1=-\frac\hbar4\frac{\Omega^2}\delta,\quad \delta E_2=+\frac\hbar4\frac{\Omega^2}\delta$
+
+平均力 $\vec f=\frac{\langle\Delta\vec p\rangle}{\Delta t}=\frac{1}{\Delta t}\langle\hbar\vec k(N_+-N_-)+\sum_{sp}\hbar\vec k_{sp}\rangle=\hbar\vec k\frac{\langle N_+\rangle-\langle N_-\rangle}{\Delta t}$
+
+由于$\langle N_+\rangle-\langle N_-\rangle=n_1\Gamma_{12}\Delta t-n_2\Gamma_{21}\Delta t$，且由平衡关系$n_1\Gamma_{12}=n_2\Gamma_{21}+n_2\Gamma_{sp}$
+
+可知$\langle N_+\rangle-\langle N_-\rangle=n_2\Gamma_{sp}\Delta t$，即 $\vec f=\hbar \vec kn_2\Gamma_{sp}$
+
+$H=H_0+H_1,\quad H_0=\hbar\omega_1\dyad{1}+\hbar\omega_2\dyad{2},\quad H_1=-\frac12\vec\mu_0\cdot\vec E e^{i\omega t}\ket 1\bra2$
+
+由刘维尔方程知
+
+$\dot\rho_{11}=\frac{1}{i\hbar}[(H_0+H_1),\rho]_{11}-\frac{1}{T_{11}}(\rho_{11}-\rho_{11}^{0})$
+
+$\dot\rho_{22}=\frac{1}{i\hbar}[(H_0+H_1),\rho]_{22}-\frac{1}{T_{22}}(\rho_{22}-\rho_{22}^{0})$
+
+$\dot\rho_{12}=\frac{1}{i\hbar}[(H_0+H_1),\rho]_{12}-\frac{\rho_{12}}{T_{12}}$
+
+$\dot\rho_{21}=\frac{1}{i\hbar}[(H_0+H_1),\rho]_{21}-\frac{\rho_{21}}{T_{21}}$
+
+其中$T_{11}=T_{22}=T_1=\frac1\Gamma,T_{12}=T_{21}=T_2=\frac2\Gamma,\Gamma=\Gamma_{sp}$
+
+无哈密顿量时 $\dot\rho_{ij}=-\frac{\rho_{ij}-\rho_{ij}^0}{T_{ij}}$，即$\rho_{22}\sim e^{-\Gamma t},c_2\sim e^{-\frac\Gamma 2t},c_1\sim 1,\rho_{12}\sim e^{-\frac\Gamma 2t}$
+
+计算哈密顿量项：$[H_0,\rho]_{ij}=(E_i-E_j)\rho_{ij}$
+
+$[H_1,\rho]_{11}=(H_1)_{12}\rho_{21}-\rho_{12}(H)_{21}=(H_1)_{12}\rho_{21}-\rho_{21}^*(H_1)_{12}^*=2i\operatorname{Im}[(H_1)_{12}\rho_{21}]=-[H_1,\rho]_{22}$
+
+$[H_1,\rho]_{12}=(H_1)_{11}\rho_{12}+(H_1)_{12}\rho_{12}-\rho_{11}(H_1)_{12}-\rho_{12}(H_1)_{22}=(H_1)_{12}(\rho_{22}-\rho_{11})=-[H_1,\rho]_{21}^*$
+
+其中用到了$(H_1)_{ii}=0$，令$\rho_{12}=\bar\rho_{12}e^{i\omega t},\rho_{21}=\bar\rho_{21}e^{-i\omega t}$
+
+则$2\operatorname{Im}[(H_1)_{12}\rho_{21}]=\frac i2\vec \mu_{12}\cdot \vec E(\bar\rho_{21}-\bar\rho_{12})$
+
+初始 $\rho_{11}(0)=1,\rho_{22}(0)=0$，且$k_BT\ll E_2-E_1$，则
+$$
+\begin{cases}
+\dot\rho_{11}=i\frac{\vec\mu_{12}\cdot\vec E}{2\hbar}(\bar\rho_{21}-\bar\rho_{12})-\Gamma(\rho_{11}-1)\\
+\dot\rho_{22}=-i\frac{\vec\mu_{12}\cdot\vec E}{2\hbar}(\bar\rho_{21}-\bar\rho_{12})-\Gamma\rho_{22}\\
+\dot\rho_{12}=i(\omega_0-\omega)\bar\rho_{12}+i\frac{\vec\mu_{12}\cdot\vec E}{2\hbar}(\rho_{22}-\rho_{11})-\frac\Gamma2\bar\rho_{12}\\
+\dot\rho_{21}=-i(\omega_0-\omega)\bar\rho_{21}-i\frac{\vec\mu_{12}\cdot\vec E}{2\hbar}(\rho_{22}-\rho_{11})-\frac\Gamma2\bar\rho_{21}
+\end{cases}
+$$
+其中 $\omega_0\approx(\omega_2-\omega_1)+k\hat e_{\vec k}\cdot\vec v=\omega_{21}+k\hat e_{\vec k}\cdot\vec v$
+
+考虑稳态并令$n_2=\rho_{22}$得
+$$
+\begin{cases}
+\Gamma n_2=-i\frac{\vec\mu\cdot\vec E}{2\hbar}(\bar\rho_{21}-\bar\rho_{12})\\
+-i(\omega_0-\omega)\bar\rho_{12}+i\frac{\vec\mu\cdot\vec E}{2\hbar}(2n_2-1)=\frac{\Gamma\bar\rho_{12}}2\\
+-i(\omega_0-\omega)\bar\rho_{21}-i\frac{\vec\mu\cdot\vec E}{2\hbar}(2n_2-1)=\frac{\Gamma\bar\rho_{21}}2
+\end{cases}
+$$
+解出
+$$
+n_2=\frac{(\frac{\vec\mu\cdot\vec E}{2\hbar})^2}{[(\omega_0-\omega)^2+(\frac\Gamma2)^2]+2(\frac{\vec\mu\cdot\vec E}{2\hbar})^2}
+$$
+令$\Delta=\omega-\omega_{21}$得
+$$
+n_2=\frac{(\frac{\vec\mu\cdot\vec E}{2\hbar})^2}{(\Delta-k\hat e_k\cdot\vec v)^2+2(\frac{\vec\mu\cdot\vec E}{2\hbar})^2+(\frac\Gamma2)^2}
+$$
+相应
+$$
+\vec f=\hbar\vec k\Gamma_{sp}n_2=\frac{\hbar \vec k\Gamma(\frac{\vec\mu\cdot\vec E}{2\hbar})^2}{(\Delta-k\hat e_k\cdot\vec v)^2+2(\frac{\vec\mu\cdot\vec E}{2\hbar})^2+(\frac\Gamma2)^2}
+$$
+考虑正反两方向知
+$$
+\vec f_s=\vec f_{\vec k}+\vec f_{-\vec k}=\hbar\vec k\Gamma\qty[\frac{(\frac{\vec\mu\cdot\vec E}{\hbar\Gamma})^2}{\frac{(\Delta-k\hat e_{\vec k}\cdot\vec v)^2}{(\frac{\Gamma}2)^2}+2(\frac{\vec\mu\cdot\vec E}{\hbar\Gamma})^2+1}-\frac{(\frac{\vec\mu\cdot\vec E}{\hbar\Gamma})^2}{\frac{(\Delta+k\hat e_{\vec k}\cdot\vec v)^2}{(\frac{\Gamma}2)^2}+2(\frac{\vec\mu\cdot\vec E}{\hbar\Gamma})^2+1}]
+$$
+$kv\ll \Delta $时
+$$
+\vec f=\qty{\frac{\delta\hbar \vec k}{\Gamma}\frac{\Delta(\frac{\mu_{12}E}{\hbar\Gamma})^2\vec k}{[\frac{\Delta^2}{(\frac\Gamma2)^2}+2(\frac{\vec\mu\cdot\vec E}{\hbar\Gamma})^2+1]^2}}\cdot\vec v\propto\Delta\vec k\vec k\cdot\vec v
+$$
+原子钟	GPS系统	$(x-A_i)^2+(y-B_i)^2+(z-C_i)^2-[c(T_i-d)]^2=0$
+
+接收 $\tilde T_0=T_0+\frac Dc,\quad D'=c(T_1-T_0')$
+
+Cs钟  $N=10^6,T=0.9s$	$\Delta|\omega-\omega_0|=\frac{1}{2T\sqrt N}=5.6\times 10^{-4}Hz$,   $\omega_0\sim 2\pi\times 9.2 GHz,\frac{\Delta\omega}\omega\sim 10^{-14}, \Delta T\sim 8.6\times 10^{-10}s, c\Delta T=0.25m$
+
+以$g$下降的电梯中，光下落$H$，光源$v=gt=g\frac{H}c$	$\omega_B=\omega_A(1+\frac vc)=\omega_A(1+\frac{gH}{c^2})$
+
+原子跃迁装置Cs, Rb $\implies$ 频率发生器(转换)$\implies$ 晶振$\implies$​ 标准频率输出
+
+跃迁过程$\ket1\to\ket2$, $\frac{N_2-N_1}N\propto f(|\omega-\omega_0|\frac T2)$
+
+Cs: $S_e=\frac12,S_n=I=\frac72,J=S=\frac12,F=I+J=4,3$
+
+在$1m$尺度上下振动，周期$T=2\sqrt{\frac{2H}g}=0.9s$，频率劈裂$\omega=\omega_0\pm\frac{\pi}{2T},\Delta\omega=1.7Hz$
+
+测$N$次:  $\begin{cases}T(F=4)&p\\F(F=3)& 1-p=q\end{cases}$	    $\langle T\rangle=Np,\Delta^2=Npq,\Delta=\sqrt{Npq}$
+
+设$\varphi=(\omega-\omega_0)\frac T2$，则$\langle N_1\rangle=N\sin^2\varphi, \langle N_2\rangle=N\cos^2\varphi$
+
+则$\Delta N_1=\Delta N_2=\sqrt N|\sin\varphi\cos\varphi|$,  $\frac{\Delta(N_2-N_1)}N=\frac{1}{\sqrt N}|\sin2\varphi|$
+
+同时$\frac{N_2-N_1}N=\cos2\varphi,\quad \frac{\Delta(N_2-N_1)}{N}=2|\sin2\varphi|\Delta\varphi$
+
+由以上两种等价可知$\Delta\varphi=\frac{1}{2\sqrt N}\implies \Delta|\omega-\omega_0|=\frac{1}{2T\sqrt N}$
+
+令$\ket1,\ket2=\{\ket{F=3,4}\}$，量子态$\ket{\psi(t)}=\alpha\ket1+\beta\ket2=\cos\frac\theta2\ket1+e^{i\varphi}\sin\frac\theta2\ket2$
+
+在电场$E=E_0\cos(\omega t+\varphi)$
+$$
+\begin{cases}
+\alpha(t+\varepsilon)=e^{i\frac{\delta t}2}\qty[\alpha(t)\qty(\cos\frac{\Omega_R\varepsilon}2+i\cos\theta\sin\frac{\Omega_R\varepsilon}2)+\beta(t)e^{i(\delta t+\varphi)}\qty(-i\sin\theta\sin\frac{\Omega_R\varepsilon}2)]\\
+\beta(t+\varepsilon)=e^{-i\frac{\delta t}2}\qty[\alpha(t)e^{-i(\delta t+\varphi)}\qty(-i\sin\theta\sin\frac{\Omega_R\varepsilon}2)+\beta(t)\qty(\cos\frac{\Omega_R\varepsilon}2-i\cos\theta\sin\frac{\Omega_R\varepsilon}2)]
+\end{cases}
+$$
+其中$\sin\theta=\frac{\Omega}{\Omega_R},\cos\theta=-\frac\delta{\Omega_R}$，失谐$\delta=\omega-\omega_0$，拉比频率$\Omega_R=\sqrt{\Omega^2+\delta^2},\Omega=\frac{\bra 2\mu\cdot E\ket 1}\hbar$	$\Omega_R\sim MHz-GHz$
+
+在$\delta=0$时，$\sin\theta=1,\cos\theta=1$，$\begin{cases}\alpha(t+\varepsilon)=\alpha(t)\cos\frac{\Omega\varepsilon}2+\beta(t)e^{i\varphi}(-i\sin\frac{\Omega\varepsilon}2)\\\beta(t+\varepsilon)=\alpha(t)e^{-i\varphi}(-i\sin\frac{\Omega\varepsilon}2)+\beta(t)\cos\frac{\Omega\varepsilon}2\end{cases}$
+
+取$\Omega\varepsilon=\pi$即$\pi-$操作：$\alpha(t+\varepsilon)=-i\beta e^{i\varphi},\beta(t+\varepsilon)=-i\alpha e^{i\varphi}$，即$O_\pi=\begin{pmatrix}0&-i\\-i&0\end{pmatrix}$
+
+同理$O_{\frac\pi2}=\frac{1}{\sqrt 2}\begin{pmatrix}1&-ie^{i\varphi}\\-ie^{-i\varphi}&1\end{pmatrix}$
+
+对于$\delta=0$的情况，取$\alpha(0)=1,\beta(0)=0,\Omega_R\varepsilon=\frac\pi2$，$\begin{cases}\alpha(\varepsilon)=e^{i\frac{\delta\varepsilon}2}\frac{1+i\cos\theta}{\sqrt 2}\\\beta(\varepsilon)=-e^{-i\frac{\delta\varepsilon}2}e^{-i\varphi}\frac{i\sin\theta}{\sqrt 2}\end{cases}$	
+
+$T$上升并回落：$\beta(\varepsilon+T+\varepsilon)=-ie^{-i\frac{\delta T}2}e^{-i\delta \varepsilon}e^{-i\varphi}\cos\frac{\delta T}2$ 即$|\beta(\varepsilon+T+\varepsilon)|^2=\frac{1+\cos\delta T}2$
+
+L,S,I的耦合：$J=L+S,F=I+J=(L+S)+I$
+
+对$^{87}Rb$, $I=S_n=\frac32,J=S_e=\frac12$
+
+$\alpha_{hf}I\cdot J=\alpha_{nf}\frac{(I+J)^2-I^2-J^2}2=\frac{\alpha_{nf}}2(F^2-I^2-J^2)=\frac{\alpha_{nf}}2[F(F+1)-I(I+1)-J(J+1)]$
+
+$\alpha^2=\begin{cases}\text{hyperfine}& 10^8\sim10^9Hz\\\text{soc}&10^{10}\sim 10^{11}Hz(meV)\\\text{Coulomb}&10^{14}Hz(eV)\end{cases}$
+
+$H_{Zeeman}=B(\mu_Bg_sS_z+\mu_Ng_II_z),\quad B\to\infty,H_N^2\ll H_e^2$
+
+SI: $\mu_B=\frac{e\hbar}{2m},\mu_N=\frac{e\hbar}{2m_p}$	CGS: $\mu_B=\frac{e\hbar}{2mc},\mu_N=\frac{e\hbar}{2m_pc}$
+
+$H_{Zeeman}(B\to\infty)\sim B\mu_Bg_sS_z$
+
+$\div\vec B=0,\curl\vec B=0\implies\nabla^2\vec B=0$	$|B|$没有极大值，HFS(超精细态)不能被磁阱束缚
+
+$|\vec B|=\sqrt{B_x^2+B_y^2+B_z^2}$, 而
+$$
+\begin{aligned}
+\partial_x^2|\vec B|&=-\frac{1}{|\vec B|^3}(B_i\partial_xB_i)^2+\frac{1}{|\vec B|}[\sum_i(\partial_xB_i)^2+B_i\partial_x^2B_i]\\
+&\geq-\frac{1}{|\vec B|^3}(B_iB_i)[\sum_i(\partial_xB_i)^2]+\frac{1}{|\vec B|}[\sum_i(\partial_xB_i)^2+B_i\partial_x^2B_i]\\&=-\frac{1}{|\vec B|}B_i\partial_x^2B_i
+\end{aligned}
+$$
+即$\nabla^2|\vec B|\geq-\frac{1}{|\vec B|}(B_i\nabla^2B_i)=0$， 故$|\vec B|$只有极小值
+
+$\nabla^2\vec B=0\implies \nabla^2B_x=\nabla^2B_y=\nabla^2B_z=0$
+
+例如$B=B_0(x,y,-2z)$	$H(\vec r)=\alpha_{hf}I\cdot J+\vec B(\vec r)\cdot(\mu_Bg_s\vec S+\mu_Ng_N\vec I)$
+
+对角化 $U^\dagger(r)H(r)U(r)=\text{diag}\{\Lambda_1\cdots\Lambda_q\}|B(\vec r)|$
+
+令$H'=U^\dagger HU,\tilde\psi=U^\dagger\psi$	有$i\hbar\pdv{t}\tilde\psi=H'\tilde\psi$
+
+及$U^\dagger pU=\vec p-\vec A,\quad\vec A=i\hbar U^\dagger(r)\nabla U(\vec r)$	即$\frac{1}{2m}p^2\to \frac{1}{2m}(\vec p-\vec A)^2$
+
+最后得到 $i\hbar\pdv{\tilde\psi}{t}=[\frac{1}{2m}(-i\hbar\nabla-\vec A)^2+\Lambda(r)]\tilde\psi$，其中$\Lambda(r)=U^\dagger(\vec r)H_s(\vec r)U(\vec r)$
+
+对偶核 $ap+bn\leftrightarrow an+bp$  $V_{p-p}\approx V_{p-n}\approx V_{n-n}$  
+
+isospin $I=\frac12$	$\binom{p}{n}$	$p:I_s=\frac12,\uparrow$	$n:I_s=-\frac12,\downarrow$
+
+双原子和多原子分子	电子-转动:spin-rot 	电子-振动：SSB,Higgs	振动-转动：Coriolis
+
+$H_N=-\frac{\hbar^2}{2m_a}\nabla_a^2-\frac{\hbar^2}{2m_b}\nabla_b^2+U(R)$
+
+$H=H^{rot}+H^{vib},\quad H^{rot}=\frac12\Omega^TI\Omega=\frac{L^2}{2\mu R^2}$
+
+$H^{vib}=-\frac{\hbar^2}{2\mu}\nabla^2+U(R),\quad \psi(R,\theta,\varphi)=F(R)Y_J^\mu(\theta,\varphi)$
+
+$G(R)=RF(R),\quad -\frac{\hbar^2}{2\mu}G''+\qty[\frac{J(J+1)\hbar^2}{2\mu R^2}+U(R)-E]G(R)=0$
+
+令$R-R_e=q,\quad U(R)=U_0+\frac12kq^2$	记$S(q)=G(R)$则
+
+$-\frac{\hbar^2}{2\mu}S''(q)+\frac12(kq^2-W)S(q)=0,\quad W=E-U(R_e)-\frac{J(J+1)\hbar^2}{2\mu R_e^2}$
+
+得$S_\nu(q)=\qty(\frac{\alpha}\pi)^{\frac14}\frac{1}{\sqrt{2^\nu \nu!}}H_\nu(\sqrt\alpha q)e^{-\frac12\alpha q^2},\quad \alpha=\frac{4\pi\nu_e\mu}{h},\nu_e=\frac{1}{2\pi}\sqrt{\frac k\mu}$
+
+考虑转动部分 $H=-\frac{\hbar^2}{2\mu}\dv[2]{q}+\frac12kq^2+\frac{J^2}{2\mu R_e^2}-q\frac{J^2}{\mu R_e^3}$
+
+即$H=-\frac{\hbar^2}{2\mu}\dv[2]{q}+\frac12k(q-\frac{J^2}{\mu kR_e^2})^2-\frac{J^4}{2\mu^2 kR_e^6}+\frac{J^2}{2\mu R_e^2}$
+
+Huang-Rhys电声耦合理论	Franck-Condon: $|\bra{\nu'}H\ket{\nu}|^2\propto |\langle\nu'|\nu\rangle|$
+
+$\mu=\mu_e+\mu_N,$而
+$$
+\begin{aligned}
+\langle\mu\rangle&=\int\psi_{el}'^*\psi_{\nu'}'(\mu_e+\mu_N)\psi_{el}\psi_\nu \dd r\dd R\\&=\int\psi_{\nu'}'^*\psi_\nu\dd R\int\psi_{el}'^*\mu_e\psi_{el}\dd r+\int\psi_{el}'^*\psi_{el}\dd r\int\psi_{\nu'}'\mu_N\psi_\nu\dd R\\&=_e\langle\nu'|\nu\rangle_q\int\psi_{el}'^*\mu_e\psi_{el}\dd r
+\end{aligned}
+$$
+总哈密顿量
+$$
+H=-\frac{\hbar^2}{2m}\sum_i^{el}\nabla_i^2-\frac{\hbar^2}2\sum_\alpha^{Nucl}\frac{1}{m_\alpha}\nabla_\alpha+\sum_\alpha\sum_{p>\alpha}\frac{Z_\alpha Z_\beta e^2}{R_{\alpha\beta}}-\sum_\alpha\sum_i\frac{Z_\alpha e^2}{r_{i\alpha}}+\sum_i\sum_{j>i}\frac{e^2}{r_{ij}}
+$$
+$H(r_i,R_\alpha)\psi(r_i,R_\alpha)=E(r_i,R_\alpha)$
+
+Born-Oppenheimer Ansatz(预解式)   $\psi(r_i,R_\alpha)=\sum_I\psi_{el,I}(r_i,R_\alpha)\psi_{N,I}(R_\alpha)$
+
+$H_{el}\psi_{el,I}=E_O(R_\alpha)\psi_{el,I},\quad U_I=E_{el,I}+V_{NN}$，$E_{el,I}$为1,4,5部分，$V_{NN}$为3部分
+
+$H_N=-\frac{\hbar^2}2\sum_\alpha\frac{1}{m_\alpha}\nabla_\alpha^2+U_I(R_\alpha)$
+
+$I=0$:
+$$
+\begin{aligned}
+-i\pdv{t}\psi_{N,0}&=-\frac{\hbar^2}{2m_\alpha}\qty(\pdv[2]{R_\alpha}\psi_{N,0}+2\pdv{\psi_{N,0}}{R_\alpha}\sum_I\bra{\psi_{el,0}}\pdv{R_\alpha}\ket{\psi_{el,0}}+\bra{\psi_{el,0}}\pdv[2]{R_l}\ket{\psi_{el,0}}\psi_{N,0})\\&+U_0(R_\alpha)\psi_{N,0}
+\end{aligned}
+$$
+其中$\bra{\psi_{el,0}}\pdv[2]{R_l}\ket{\psi_{el,0}}$称为Born-Huang connection
+
+$R_0\to R_0'$ ($\hat D$): 电声耦合激发	$\omega\to\omega'(\hat S)$: 压缩态	$\{S_i\}\to\{S_i'\}(\hat U)$: 模式切换
+
+$\xi=1,\cdots,f$	$C_\xi^{(r)}=\sqrt{\frac\omega{2\hbar}}q_\xi+i\frac{1}{\sqrt{2\hbar\omega}}p_\xi$	即$\begin{cases}q_\xi=\sqrt{\frac{\hbar}{2\omega}}(c_\xi+c_\xi^\dagger)\\p_\xi=-i\sqrt{\frac{\hbar\omega}2}(c_\xi-c_\xi^\dagger)\end{cases}$
+
+引入 $\begin{cases}Q_\xi=q_\xi\sqrt{\frac{2\omega}\hbar}=c_\xi+c_\xi^\dagger\\P_\xi=p_\xi\sqrt{\frac{2}{\hbar\omega}}=-i(c_\xi-c_\xi^\dagger)\end{cases}$
+
+本征态 $\ket{v_1\cdots v_f}$，对双原子分子记为$\ket{\nu_1}$	$c_\xi\ket{v_\xi}=\sqrt{v_\xi}\ket{v_\xi-1},c_\xi^\dagger\ket{v_\xi}=\sqrt{v_\xi+1}\ket{v_\xi+1}$
+
+$H_{e/g}=U(q_{\xi,0}^{(e/g)})+\frac12\sum_\zeta(p_\zeta^2+\omega_\zeta^2(q_\zeta-q_{0,\zeta}^{(e/g)})^2)$
+
+定义$g_a^{(\zeta)}=-\sqrt{\frac{\omega}{2\hbar}}q_{\zeta,0}^{(a)},\quad a=e,g$则
+
+$H_a=U_a^{(0)}+\sum_\zeta\hbar\omega_\zeta(c_\zeta^\dagger c_\zeta+\frac12)+\sum_\zeta\hbar\omega_\zeta(g_a(\zeta)(c_\zeta^\dagger+c_\zeta)+g_a^2(\zeta))$
+
+$\ket g,\ket e,q=0$	位移为$q_{\zeta,0}^{(a)}$
+
+将含$g$的项看作微扰，$H=\sum_\zeta\hbar\omega_\zeta(c_\zeta^\dagger c_\zeta+\frac12)$	$\ket{v_\zeta}=\frac{1}{\sqrt{v_\zeta!}}(c_\zeta^\dagger)^v\ket0$
+
+相应 $\psi_{a(=e,g),v}(q_\zeta-q_\zeta^{(a)})=\sum_{n=0}^\infty\frac{(-q_\zeta^{(a)})^n}{n!}\dv[n]{q_\zeta}\psi_{a,v}(q_\zeta)=e^{-\frac i\hbar q_\zeta^{(a)}\hat p_\zeta}\psi_{a,v}(q_\zeta)$
+
+由$-\frac i\hbar q_\zeta^{(a)}\hat p_\zeta=g_a(\zeta)(c_\zeta-c_\zeta^\dagger)$，可知平移算符
+
+$D^\dagger(g_a(\zeta))=e^{g_a(\zeta)(c_\zeta-c_\zeta^\dagger)}$，且$D(g_a(\zeta))\ket0=\ket{g_a(\zeta)}$
+
+即$\ket{v_\zeta^{(a)}}=\frac{1}{\sqrt{v_\zeta!}}D^\dagger(g_a(\zeta))(\hat c_\zeta^\dagger)^{v_\zeta}\ket0=D^\dagger(g_a(\zeta))\ket{v_\zeta}$
+
+平移算符满足 $D^\dagger(g)=D(-g)=D^{-1}(g)$
+
+对$c,c^\dagger$的位移	$D^\dagger(g)c^\dagger D(g)=e^{g(c-c^\dagger)}c^\dagger e^{-g(c-c^\dagger)}$
+
+利用BCH公式 $e^ABe^{-A}=B+[A,B]+\frac{1}{2!}[A,[A,B]]+\frac{1}{3!}[A,[A,[A,B]]]+\cdots$
+
+可得 $D^\dagger(g)c^\dagger D(g)=c^\dagger+g$，即$H_a=U_a^{(0)}+\sum_\zeta\hbar\omega_\zeta[(c_\zeta^\dagger+g_a(\zeta))(c_\zeta+g_a(\zeta))+\frac12]$
+
+投影 $\bra{\psi_{e\mu}}\psi_{g\nu}\rangle=\bra{\mu}D(g_e)D^\dagger(g_g)\ket\nu$，其中
+
+$D(g_e)D^\dagger(g_g)=e^{-g_e(c-c^\dagger)}e^{g_g(c-c^\dagger)}=e^{\Delta g_{eg}c^\dagger}e^{-\Delta g_{eg}c}e^{-\frac{\Delta g_{eg}^2}2}$
+
+其中 $\Delta g_{eg}=g_e-g_g=-\sqrt{\frac{\omega}{2\hbar}}(q_o^{(e)}-q_o^{(g)})$
+
+而 $e^{-\Delta g_{eg}c}\ket \nu=\sum_{n=0}^\nu\frac{(-\Delta g_{eg})^n}{n!}c^n\ket\nu=\sum_{n=0}^\nu\frac{(-\Delta g_{eg})^n}{n!}\sqrt{\frac{\nu!}{(\nu-n)!}}\ket{\nu-n}$
+
+由此得到
+$$
+\bra{\psi_{e\nu'}}\psi_{g\nu}\rangle=e^{-\frac{\Delta g_{eg}^2}2}\sum_{m=0}^{\nu'}\sum_{n=0}^\nu\frac{(-)^n(\Delta g_{eg})^{m+n}}{m!n!}\sqrt{\frac{\nu'!}{(m-\nu')!}\frac{\nu!}{(n-\nu)!}}\delta_{\nu'-m,\nu-n}
+$$
+对$\nu=0\implies n=0$，定义$\Delta g_{eg}^2=\frac{\omega}{2\hbar}(\Delta q_o^2)=S$
+
+则 $|\langle \psi_{e\nu'}|\psi_{g0}\rangle|^2=e^{-S}\qty(\sum_{m=0}\frac{(\sqrt S)^m}{m!}\sqrt{\frac{\nu'!}{(m-\nu')!}}\delta_{\nu'-m,0})^2=\frac{e^{-S}S^{\nu'}}{\nu'!}$即$|\bra\nu 0\rangle|^2=\frac{e^{-S}S^\nu}{\nu!}$，$S\ll1$时，对$\nu\neq0$将压低投影概率
+
+$\hat D^\dagger(g)\hat q\hat D(g)=\hat q+g$平移	$\hat S^\dagger(\lambda)\hat q\hat S(\lambda)=e^{\Lambda}\hat q$压缩（拉伸）	$\hat U^\dagger(0)\hat q\hat U(0)=\hat O\hat q$
+
+$\hat q_{e,0}=Aq_{g,0}+d=\hat W^\dagger q_{g,0}\hat W,\quad \hat W\approx \hat U(0)\hat S(\lambda)\hat D(g)$
+
+由$\bra{\nu'_e}\nu_g\rangle=\bra{0_e}\prod_{s=1}^f\frac{c_{e,\zeta}^{\nu_\zeta}}{\sqrt{\nu_\zeta!}}\ket{\nu_g}$，可知
+$$
+\begin{aligned}
+\bra{\nu_1'\nu_2'\cdots}\nu_1\nu_2\cdots\rangle&=\bra{0_g}\hat W\qty(\hat W^T\prod_{\zeta=1}^f\frac{c_{g,\zeta}^{\nu_\zeta}}{\sqrt{\nu_\zeta!}}\hat W)\ket{\nu_g}\\&=\bra{0_g}\prod_{\zeta=1}^f\frac{c_{g,\zeta}^{\nu_\zeta}}{\sqrt{\nu_\zeta!}}\hat W\ket{\nu_g}\\&=\bra{\nu_g'}\hat W\ket{\nu_g}
+\end{aligned}
+$$
+考虑电磁波，$(x,p)\leftrightarrow(E,\varphi),\quad \tilde E=Ee^{i\varphi}$
+
+$\hat{\vec E}(\vec r,t)=\hat{\vec E}^{(+)}(\vec r,t)+\hat{\vec E}^{(-)}(\vec r,t),\quad (E^{(-)})=(E^{(+)})^\dagger$
+
+$E^{(+)}$: photon absorption, $n\to n-1$	$E^{(-)}$: photon emission, $n\to n+1$
+
+即$E^{(+)}\sim \hat ae^{-i\omega t},E^{(-)}\sim \hat a^\dagger e^{i\omega t}$, 	$\hat{\vec E}^{(+)}\ket{vac}=0,\bra{vac}\hat{\vec E}^{(-)}=0$
+
+一阶关联函数	$G_{\mu\nu}^{(1)}(\vec rt,\vec r't')=\Tr[\hat\rho\hat E_\mu^{(-)}\hat E_\nu^{(+)}]=\mathcal E_\mu^*(\vec rt)\mathcal E_\nu(\vec r't')$
+
+给定$(\omega,\vec k,\hat e^{(\lambda)},\vec{\mathcal E})$，单模自由空间电磁波满足
+
+$\nabla^2\vec u_k+\frac{\omega_k^2}{c^2}\vec u_k=0,\begin{cases}\nabla\cdot\vec u_k=0\\\int\vec u_k^*(\vec r)\vec u_l(\vec r)\dd{\vec r}=\delta_{kl}\end{cases}$
+
+得$\vec u_k(\vec r)=\frac{1}{L^{\frac32}}\hat e^{(\lambda)}e^{i\vec k\cdot\vec r}$, $\lambda=1,2$为偏振自由度
+
+对应 $\hat{\vec A}=c\sum_k\sqrt{\frac{\hbar}{2\omega_k}}[\hat a_k\vec u_k(\vec r)e^{-i\omega_kt}+\hat a_k^\dagger\vec u_k(\vec r)e^{i\omega_kt}]$
+
+因此 $\hat H=\frac12\int(E^2+B^2)\dd{\vec r}=\frac12\sum_k\hbar\omega_k(a^\dagger_k a_k+a_ka_k^\dagger)=\sum_k\hbar\omega_k(n_k+\frac12)$
+
+对易关系 $[\hat a_k,\hat a_{k'}^\dagger]=\delta_{k'k},\quad [\hat a_k,\hat a_{k'}]=[\hat a_k^\dagger,\hat a_{k'}^\dagger]=0$
+
+本征态 $\hat a_k\ket{0}_k=0,\quad \ket{n_k}_k=\frac{(\hat a_k^\dagger)^{n_k}}{(n_k!)^2}\ket0_k$, 	$\begin{cases}\hat a_k\ket{n_k}_k=\sqrt{n_k}\ket{n_k-1}_k\\\hat a_k^\dagger\ket{n_k}_k=\sqrt{n_k+1}\ket{n_k+1}_k\\\hat a_k^\dagger\hat a_k\ket{n_k}_k=n_k\ket{n_k}\end{cases}$
+
+电场$\hat{\vec E}=-\frac1c\dv{\hat{\vec A}}{t},\quad \hat{\vec E}^{(+)}(\vec rt)=i\sum_k\sqrt{\frac{\hbar\omega_k}2}\hat a_k\vec u_k(\vec r)e^{-i\omega_kt}$
+
+电场算符的本征态：考虑相干态$\hat a\ket\alpha=\vec\alpha\ket\alpha$
+
+$\sqrt{n+1}\langle n+1\ket\alpha=\alpha\bra n\alpha\rangle\implies \bra n\alpha\rangle=\frac{\alpha^n}{\sqrt{n!}}\bra0\alpha\rangle$
+
+$\ket\alpha=\sum_n\dyad n\alpha\rangle=\langle0\ket\alpha\sum_n\frac{\alpha^n}{\sqrt{n!}}\ket n$
+
+而$\langle\alpha\ket\alpha=|\bra0\alpha\rangle|^2\sum_n\frac{|\alpha|^{2n}}{n!}=|\bra0\alpha\rangle|^2e^{|\alpha|^2}$
+
+归一化：$\bra\alpha\alpha\rangle=1\implies\bra0\alpha\rangle=e^{-\frac{|\alpha|^2}2}\implies \ket\alpha=e^{-\frac{|\alpha|^2}2}\sum_n\frac{\alpha^n}{\sqrt{n!}}\ket n$
+
+由$q=\sqrt{\frac{\hbar}{2\omega}}(\hat a^\dagger+\hat a),p=i\sqrt{\frac{\hbar\omega}2}(\hat a^\dagger-\hat a),[q,p]=i\hbar$
+
+可得 $\bra\alpha q\ket\alpha=\sqrt{\frac{2\hbar}\omega}\Re\alpha,\quad \bra\alpha p\ket\alpha=\sqrt{2\hbar\omega}\Im\alpha$
+
+考虑$\hat a\vec u_k(\vec r)=\alpha\vec u_k(\vec r)=\mathcal E_\alpha u_k(\vec r)$，含相互作用的哈密顿量
+
+$\hat H=\hat H_{rad}+\hat V(t)=\hbar\omega(\hat a^\dagger\hat a+\frac12)+i\hbar(f(t)\hat a^\dagger-f^*(t)\hat a),\quad f(t)=f_0e^{-i\omega t}$
+
+相互作用表象中 $V_I(t)=e^{\frac{iH_0t}{\hbar}}i\hbar (f(t)\hat a^\dagger-f^*(t)\hat a)e^{-\frac{iH_0t}{\hbar}}=i\hbar (f_0\hat a^\dagger-f_0^*\hat a)$
+
+演化算符 $i\hbar\pdv{t}U_I=V_IU_I\implies U_I(t)=e^{(f_0\hat a^\dagger-f_0^*\hat a)t}$
+
+相应 $\ket{\psi(t)}_I=e^{(f_0t)\hat a^\dagger-(f_0^*t)\hat a}\ket0=D(f_0t)\ket0=e^{-\frac{|f_0|^2t^2}{2}}e^{f_0a^\dagger t}\ket0$	是相干态
+
+$D(\alpha)=e^{\alpha\hat a^\dagger-\alpha^*\hat a},\quad \ket\alpha=D(\alpha)\ket0$
+
+单位分解：$1=\sum_n\ket n\bra n=\frac1\pi\int\dd[2]\alpha\dyad\alpha$ 
+
+相干态展开 $\ket\psi=\int\dd[2]\alpha F(\alpha)\ket\alpha$
+
+压缩相干态  $H=\frac{p^2}2+\frac{1}2\omega^2q^2=\frac{p^2}2+\frac12Cq^2,\quad H'=\frac{p^2}2+\frac12\omega'^2q^2=\frac{p^2}2+\frac12C'q^2$
+
+$H'=\hbar\omega(\hat a^\dagger\hat a+\frac12)+\frac12C_1q^2=\hbar\tilde \omega(\hat a^\dagger\hat a+\frac12)+\frac12\tilde C_1(\hat a^{\dagger 2}+\hat a^2)$
+
+压缩算符 $\hat S(\zeta)=e^{\frac{\zeta\hat a^{\dagger2}-\zeta^*\hat a^2}{2}},\zeta=re^{i\varphi}$
+
+$\hat Q=\frac{1}{\sqrt 2}(\hat a+\hat a^\dagger),\hat P=\frac{1}{\sqrt 2i}(\hat a-\hat a^\dagger)$，
+
+对压缩态 $\hat Q(r)=\hat S^\dagger(r)\hat Q(0)\hat S(r)=Q(0)e^{-r},\quad \hat P(r)=\hat S^\dagger(r)\hat P(0)\hat S(r)=P(0)e^{r}$
+
+升降算符 $\hat a(r)=\hat a\cosh r-\hat a^\dagger\sinh r,\quad \hat a^\dagger(r)=-\hat a\sinh r+\hat a^\dagger\cosh r$
+
+考虑频率突变的振子 $H(t)=\hbar\omega(t)(\hat a^\dagger\hat a+\frac12),\quad \omega(t)=\begin{cases}\omega_0,&t<0\\\omega_1,&t\geq0\end{cases}$
+
+升降算符 $\begin{cases}\hat a^\dagger=\frac{1}{\sqrt 2}(\sqrt{\frac{m\omega_0}{\hbar}}\hat Q-i\sqrt{\frac{1}{\hbar m\omega_0}}\hat P)\\\hat a=\frac{1}{\sqrt 2}(\sqrt{\frac{m\omega_0}{\hbar}}\hat Q+i\sqrt{\frac{1}{\hbar m\omega_0}}\hat P)\end{cases}$
+
+演化
+$$
+\begin{aligned}
+\hat{\tilde a}^\dagger(t)&=e^{i\omega_1t}\hat a^\dagger(0)\\&=e^{i\omega_1t}\frac{1}{\sqrt 2}\qty(\sqrt{\frac{m\omega_1}\hbar}\hat Q-i\sqrt{\frac{1}{m\hbar\omega_1}}\hat P)\\&=e^{i\omega_1 t}\frac{1}{\sqrt 2}\qty[\sqrt{\frac{\omega_1}{\omega_0}}\sqrt{\frac{m\omega_0}\hbar}\hat Q-i\sqrt{\frac{\omega_0}{\omega_1}}\sqrt{\frac{1}{m\hbar\omega_0}}\hat P]\\&=e^{i\omega_1 t}\qty(\frac{\omega_1+\omega_0)}{2\sqrt{\omega_0\omega_1}}\hat a^\dagger+\frac{\omega_1-\omega_0}{2\sqrt{\omega_0\omega_1}}\hat a)\\&=U^*(t)\hat a^\dagger+V^*(t)\hat a
+\end{aligned}
+$$
+写成压缩参数形式
+$$
+\begin{cases}
+\hat{\tilde a}^\dagger(0)=\cosh r \hat a^\dagger-\sinh r\hat a\\
+\hat{\tilde a}(0)=\cosh r\hat a+\sinh r\hat a^\dagger
+\end{cases}
+$$
+其中压缩参数$r=\text{arctanh}\frac{\omega_0-\omega_1}{\omega_0+\omega_1}$,  $S=-10\lg e^{-2r} (dB)$
+
+以及 $\langle Q^2\rangle(t)=\frac{\hbar}{2m\omega_1}\langle (\tilde a(t)+\tilde a^\dagger(t))^2\rangle=\frac{\hbar}{m\omega_1}\langle |U(t)+V^*(t)|^2(n+\frac12)\rangle$，
+
+其中 $\langle n+\frac12\rangle=\frac{1}{e^{\beta\hbar\omega_0}-1}+\frac12=\frac12\coth\frac{\beta\hbar\omega_0}2$，
+
+以及 $|U(t)+V^*(t)|^2=\frac{\omega_1}{2\omega_0}\qty[\qty(1+\frac{\omega_0^2}{\omega_1^2})+\qty(1-\frac{\omega_0^2}{\omega_1^2})\cos2\omega_1t]$
+
+Fiber bundle & vibration
+
+考虑甲烷分子，$M=\{c,H_1,H_2,H_3,H_4\}$，对应$E_c,E_1,E_2,E_3,E_4$
+
+给定位移函数$f$即平衡位置附近的位移，$f(c)\in E_c,f(i)\in E_i,i=1,2,3,4$
+
+抽象化：
+
+$M=\{x\}$, 定义vector bundle, 矢量空间的集合 $\{E_x\},\forall x\in M$
+
+$E=\bigcup_{x\in M}E_x$ 是$M$上的VBun，不是矢量空间
+
+$\pi: E\to M, \pi(v)=x,v\in E_x$	$E_x=\pi^{-1}(x)$是$x$点的纤维
+
+$(E,M)$ VBun 截面$f$是$M$上的函数，$f(x)\in E_x,\forall x\in E_x$
+
+$(f_1+f_2)(x)=f_1(x)+f_2(x),\quad (cf)(x)=c(f(x)),\Gamma=\{f_i\}$
+
+$\dim(\Gamma(E))=\sum_{x\in M}\dim (E_x)$
+
+$G$作用于$M$，$E$是$M$上Bun$_V$，$G$作用如下：
+
+(1)$a\in G,E_x\to E_{ax}$是线性的；(2)$\pi:E\to M$是$G-$态射，$a\pi(v)=\pi(av)$
+
+$\Gamma(E)$是$3N$维线性空间，可作为$G$的表示空间
+
+对于不变原子$ax=x$, $a(v_x)_j=\sum_i (A_x)_{ij}(v_x)_i\implies af_{v_{xj}}=\sum_{i}(A_x)_{ij}f_{v_{xi}}$
+
+$R(a)$在$\Gamma(E)$截面上作用的特征标$\chi=\sum_{x,i}(A_x)_{ii}$
+
+$Frob_a(M)=\{x\in M|ax=x\}$
+
+Frobenius不动点定理：对$a\in G,\chi_E(a)$特征标为 $\chi_E(a)=\sum_{x\in Frob_a(M)}\Tr(a:E_x\to E_x)$
+
+特征标表：
+
+|      $T_a$       | $E$  | $8C_3$ | $3C_2$ | $6\sigma_d$ | $6S_4$ |
+| :--------------: | ---- | ------ | ------ | ----------- | ------ |
+|      $A_1$       | 1    | 1      | 1      | 1           | 1      |
+|      $A_2$       | 1    | 1      | 1      | -1          | -1     |
+|       $E$        | 2    | -1     | 2      | 0           | 0      |
+| $R_xR_yR_z(T_1)$ | 3    | 0      | -1     | -1          | 1      |
+|    $xyz(T_2)$    | 3    | 0      | -1     | -1          | 1      |
+|     $\Gamma$     | 3    | 0      | -1     | 1           | -1     |
+
+$\chi(C_n^m)=N_{C_n^m}^{inv}[1+2\cos\frac{2n\pi}{m}],\chi(E)=3N,\chi(S_n)=\chi(C_n\sigma_n)=N_{S_n}^{inv}(-1+2\cos\frac{2\pi}n)$
+
+$\chi(i)=-3N_i^{inv},\chi(\sigma)=N_\sigma^{inv},\chi(\sigma_d)=N_{\sigma_d}^{inv}$
+
+$\Gamma=A_1\oplus E\oplus T_1\oplus 3T_2,\quad \Gamma_{vib}=T-T_1-T_2=A_1\oplus E\oplus 2T_2$
+
+分子的转动
+
+双原子 $\vec J=\vec N+\vec L+\vec S$,  $\vec N$为机械部分
+
+$\hat H=B\hat N^2=B(N_x^2+N_y^2)=B(\vec J-\vec L-\vec S)^2_{x,y}$
+$$
+\begin{aligned}
+\hat H_{rot}&=B(J^2-J_z^2)+B(S^2-S_z^2)+B(L^2-L_z^2)\\&-B(J^+L^-+J^-L^+)-B(J^+S^-+J^-S^+)+B(L^+S^-+L^-S^+)
+\end{aligned}
+$$
+$\hat H_{SO}=A\vec L\cdot\vec S=AL_zS_z+\frac12A(L^+S^-+L^-S^+)$
+
+角动量升降 $J^\mp \ket{\Omega JM}=\hbar\sqrt{J(J+1)-\Omega(\Omega\pm1)}\ket{\Omega\pm1,JM}$
+
+Anomalous commutator $[\hat J_x,\hat J_y]=-i\hbar \hat J_z$
+
+$\hat e_i, i=X,Y,Z$	$\hat u^\alpha,\alpha=x,y,z$	方向余弦 $\lambda_{\alpha i}=\hat u^\alpha\cdot\hat e_i$
+
+$[J_\alpha,J_\beta]=-i\hbar\varepsilon_{\alpha\beta\gamma}K_\gamma,\quad [J_x,J_y]=[\lambda_{x i}J_i,\lambda_{yj}J_j]$
+
+利用$\lambda_{xY}\lambda_{yZ}-\lambda_{xZ}\lambda_{yY}=\lambda_{zZ}$可得  $[\hat J_x,\hat J_y]=-i\hbar \hat J_z$
+
+考虑$^2\Sigma^+$: $\ket{^2\Sigma_{\pm\frac12}}=\ket{\Lambda=0,S=\frac12,\Sigma=\pm\frac12}\ket{\Omega=\pm\frac12,JM}$
+
+$\bra{^2\Sigma_{\frac12}}\hat H_{rot}\ket{^2\Sigma_{\frac12}}=\bra{^2\Sigma_{-\frac12}}\hat H_{rot}\ket{^2\Sigma_{-\frac12}}=B(J+\frac12)^2$
+
+$\bra{^2\Sigma_{-\frac12}}\hat H_{rot}\ket{^2\Sigma_{\frac12}}=-B(J+\frac12)$
+
+即 $H=\begin{pmatrix}B(J+\frac12)^2&-B(J+\frac12)\\-B(J+\frac12)&B(J+\frac12)^2\end{pmatrix}$
+
+新基 $\ket{^2\Sigma^+(e,f)}=\frac{\ket{^2\Sigma_{\frac12}^+}\pm\ket{^2\Sigma_{-\frac12}^+}}{\sqrt 2}$，在此基下对角化 $H=\begin{pmatrix}B(J+\frac12)^2-B(J-\frac12)&0\\0&B(J+\frac12)^2-B(J+\frac12)\end{pmatrix}$
+
+$\vec N=\vec J-\vec S$,	$N=J-\frac12,\ket e; N=J+\frac12,\ket f$
+
+$F_1(e)=BN(N+1)=F_2(f)$
+
+加入电场，$\mu\cdot E=\mu_z E_z$
+
+$\mu_Z^{lab}=\mu_i\cos iZ=(\alpha_{zz}E_z)_{lab}=\alpha_{ii}E_i\cos (iZ)=\alpha_{ii}E_Z\cos^2(iZ)=E_z(\alpha_{xx}+(\alpha_{yy}-\alpha_{xx})\cos^2(zZ))$
+
+考虑水分子，$\hat H=\hat H_{rot}+\hat H'=\hat H_{rot}-E_i^*(t)\alpha_{ij}E_j(t)$, $\alpha_{ij}$为实验室系中
+
+即$\hat H'=-\frac12\sum_{JM}(-)^{J+M}U(t)^{[J]}_M\alpha_{-M}^{[J]}$,  $U(t)_{M}^{[J]}=[E^*(t)^{[1]}\times E(t)^{[1]}]^{[J]}_M$
+
+其中$T_q^{[1]}=\begin{cases}-\frac{T_x+iT_y}{\sqrt 2}&q=1\\T_z&q=0\\\frac{T_x-iT_y}{\sqrt 2}&q=-1\end{cases}$
+
+张量积 $\{E^{[1]}\times E^{[1]}\}^{[J]}_M=\sum_{q_1q_2}\bra{1q_11q_2}11JM\rangle E_{q_1}^{[1]}E_{q_2}^{[1]}$
+
+$(E^{[1]}\times E^{[1]})^0_0=\sum_{q_1q_2}\begin{pmatrix}1&1&0\\q_1&q_2&0\end{pmatrix}E_{q_1}^{[1]}E_{q_2}^{[1]},\quad \begin{pmatrix}1&1&0\\q_1&q_2&0\end{pmatrix}=(-)^{1-q_1}\delta_{q_1-q_2}\frac{1}{\sqrt 3}$
+
+$E(t)=(\pm E_x\sin(k_yy-\omega t),0,E_z\cos(k_yy-\omega t))=\frac{1}2(\pm E_x,0,E_z)$
+
+$(E^{[1]}\times E^{[1]})^0_0=-\frac{1}{\sqrt 3}(E_x^2(t)+E_z^2(t))$
+
+$|E(t)|^2=E_x^2\sin^2(k_yy-\omega t)+E_z\cos^2(k_yy-\omega t)=4\pi\alpha I$
+
+$a=\frac{E_x}{\sqrt{E_x^2+E_z^2}},b=\frac{E_z}{\sqrt{E_x^2+E_z^2}},E=\sqrt{4\pi\alpha I}(\pm a,0,b)$
+
+$U_0^{[0]}=-\frac{1}{\sqrt 3}(E_x^2(t)+E_z^2(t))=-\sqrt{\frac13}4\pi\alpha I,U_0^{[2]}(t)=\sqrt{\frac 16}(2E_z^2(t)-E_x^2(t))=\sqrt{\frac16}4\pi\alpha I(2-3a^2)$
+
+$U_{\pm1}^{[2]}=\mp E_x(t)E_z(t)=0$ 	$U_{\pm2}^{[2]}=\frac12E_x^2(t)=2\pi\alpha Ia^2$	(时间平均)
+
+$\alpha^{(p)}=\begin{pmatrix}\alpha_R& & \\& \alpha_S& \\ & & \alpha_T\end{pmatrix}$
+
+$\alpha_0^{(0)}=-\sqrt{\frac 13}(\alpha_R+\alpha_S+\alpha_T)$	$\alpha_0^{(2)}=\sqrt{\frac16}(2\alpha_T-\alpha_R-\alpha_S)$
+
+$\alpha_{\pm2}^{(2)}=\frac{1}2(\alpha_R-\alpha_S\pm i(\alpha_{RS}+\alpha_{SR}))$ 	$\alpha_0^{(1)}=\frac{i}{\sqrt 2}(\alpha_{RS}-\alpha_{SR})$
+
+$\alpha_{\pm1}^{(1)}=\frac12(\alpha_{TR}-\alpha_{RT}\mp i(\alpha_{ST}-\alpha_{TS}))$
+
+$\alpha_{\pm1}^{(2)}=\mp\frac12(\alpha_{RT}+\alpha_{TR}-i(\alpha_{ST}+\alpha_{TS}))$
+
+$\alpha_0^{(0)L}=D_{00}^{(0)}(R_{PL}\alpha_{(0)}^{(0)P})=\alpha_0^{(0)P}$
+
+$\alpha_0^{(2)L}=D_{Q0}^{(2)}(R_{PL})\alpha_Q^{(2)P}=(D_{20}^{(2)}+D_{-20}^{(2)})(R_{PL})\alpha_2^{(2)P}+D_{00}^{(2)}(R_{PL})\alpha_0^{(2)P}$
+
+$\alpha_{\pm1}^{(2)L}=D_{Q\pm1}^{(2)}(R_{PL})\alpha_{Q}^{(2)},\quad \alpha_{\pm2}^{(2)L}=D_{Q\pm2}^{(2)}(R_{PL})\alpha_Q^{(2)}$
+
+$H_L=-\frac12E_i^{(L)}E_j^{(L)}\alpha_{ij}^{(L)}=-\frac12U_{ij}\alpha_{ij}=-\frac12\sum_{JM}(-)^{J+M}U_M^{(J)}\alpha_{-M}^{(J)},J=0,2$
+
+即$H_L=-\frac12[U_0^{(0)}\alpha_0^{(0)}+U_0^{(0)}\alpha_0^{(0)}+U_2^{(2)}(\alpha_2^{(2)}+\alpha_{-2}^{(2)})]$
+
+考虑转动  $\alpha_0^{(2)L}=D_{m0}^{(2)}(0,\beta,0)\alpha_m^{(2)P}=\sqrt{\frac{4\pi}3}Y_{2m}^*(\beta,0)\alpha_m^{(2)P}=\sqrt{\frac32}\cos^2\theta(\alpha_{zz}-\alpha_{xx})-\sqrt{\frac16}(\alpha_{zz}-\alpha_{xx})$
+
+$\alpha_0^{(2)P}=\sqrt{\frac 16}(2\alpha_T-\alpha_R-\alpha_S)=\sqrt{\frac 23}(\alpha_{zz}-\alpha_{xx})$	
+
+$\alpha_{\pm2}^{(2)}=\frac{1}2(\alpha_R-\alpha_S\pm i(\alpha_{RS}+\alpha_{SR}))=0$
+
+$\alpha_0^{(0)L}=\alpha_0^{(0)P}=-\sqrt{\frac13}(\alpha_{zz}-2\alpha_{xx})$
+
+$U_0^{(2)L}=\sqrt{\frac16}(2E_z^2-E_x^2)=\sqrt{\frac23}E_z^2,\quad E_x=0$
+
+$U_0^{(0)L}=-\sqrt{\frac13}E_z^2$
+
+即$H_L=-\frac12\cos^2\theta E_z^2(\alpha_{zz}-\alpha_{xx})+E_z^2\alpha_{xx}$
+
+转动部分 $H=\frac{J_a^2}{2I_{aa}}+\frac{J_b^2}{2I_{bb}}+\frac{J_c^2}{2I_{cc}}=AJ_a^2+BJ_b^2+CJ_c^2,\quad J_a=I_{aa}\omega_a$
+
+设$A\geq B\geq C$即$I_{aa}\leq I_{bb}\leq I_{cc}$
+
+线型：$I_{cc}=I_{bb}>I_{aa}=0$	球对称分子：$I_{aa}=I_{bb}=I_{cc}$
+
+prolate: $A>B=C, I_{aa}<I_{bb}=I_{cc}$	oblate: $A=B>C, I_{aa}=I_{bb}<I_{cc}$
+
+$\hat H^{(pro)}=AJ_a^2+B(J_b^2+J_c^2)=BJ^2+(A-B)J_a^2$
+
+$\hat H^{(obl)}=B(J^2-J_c^2)+CJ_c^2=BJ^2+(C-B)J_c^2$
+
+$J^2D_{mk}^{*J}=J(J+1)\hbar^2 D_{mk}^{*J},\quad J_zD_{mk}^{*J}=k\hbar D_{mk}^J$
+
+$E^{(pro)}=BJ(J+1)\hbar^2+(A-B)k^2\hbar^2,\quad E^{(obl)}=BJ(J+1)\hbar^2-(B-C)k^2\hbar^2$
+
+$A\neq B\neq C$:  不对称陀螺分子	不对称度$K=\frac{2B-A-C}{A-C}$
+
+长陀螺$A>B=C, K=-1$	扁陀螺$A=B>C$, $K=1$
+
+$H_{rot}^{obl}=AJ_a^2+BJ_b^2+CJ_c^2=\frac{A-B}4(J_+^2+J_-^2)+\frac{A+B}4(J_+J_-+J_-J_+)+CJ_z^2$
+
+得到 $H_{rot}^{obl}=\frac{A+B}2J^2+(C-\frac{A+B}2)J_z^2+\frac{A-B}4(J_+^2+J_-^2)$
+
+同理 $H_{rot}^{pro}=\frac{B+C}2+(A-\frac{B+C}2)J_z^2+\frac{B-C}4(J_+^2+J_-^2)$
+
+$\ket{JM\tau}=\sum_{k\geq0}a_{k\tau}^J[\ket{JKM}+(-)^\tau\ket{J,-KM}]$
+
+不同k有混合，k不是好量子数
+
+$V=\{E,R_a(\pi),R_b(\pi),R_c(\pi)\}\cong C_{2v}$	克莱因四元群
+
+| $C_{2v}$ | $V$   | $E$  | $R_a(\pi)$ | $R_b(\pi)$ | $R_c(\pi)$ |
+| -------- | ----- | ---- | ---------- | ---------- | ---------- |
+| $A_1$    | $A$   | 1    | 1          | 1          | 1          |
+| $B_1$    | $B_a$ | 1    | 1          | -1         | -1         |
+| $A_2$    | $B_b$ | 1    | -1         | 1          | -1         |
+| $B_2$    | $B_c$ | 1    | -1         | -1         | 1          |
+
+$R_z(\pi)\ket{JKM}=e^{ik\pi}\ket{JKM}=(-)^k\ket{JKM}$
+
+$R_x(\pi)\ket{JKM}=(-)^J\ket{J,-KM}$	$R_y(\pi)\ket{JKM}=(-)^Je^{-ik\pi}\ket{J,-KM}$
+
+长陀螺极限 $a= z$
+
+| $K_a$      | $\Gamma^{rot}$  | $E$  | $R_a$ | $R_b$ | $R_c$ |
+| ---------- | --------------- | ---- | ----- | ----- | ----- |
+| 0 (J even) | $A$             | 1    | 1     | 1     | 1     |
+| 0 (J odd)  | $B_a$           | 1    | 1     | -1    | -1    |
+| odd        | $B_b\oplus B_c$ | 2    | -2    | 0     | 0     |
+| even       | $A\oplus B_a$   | 2    | 2     | 0     | 0     |
+
+扁陀螺极限$c=z$
+
+| $K_c$      | $\Gamma^{rot}$  | $E$  | $R_a$ | $R_b$ | $R_c$ |
+| ---------- | --------------- | ---- | ----- | ----- | ----- |
+| 0 (J even) | $A$             | 1    | 1     | 1     | 1     |
+| 0 (J odd)  | $B_c$           | 1    | -1    | -1    | 1     |
+| odd        | $B_a\oplus B_b$ | 2    | 0     | 0     | -2    |
+| even       | $A\oplus B_c$   | 2    | 0     | 0     | 2     |
+
+Fano共振
+
+$\ket{\psi_f}=\alpha\ket{\phi_0}^a+\int\dd E_b\beta_b\ket{\psi_0^b}$
+
+束缚态$a$: $\hat H_0\ket{\phi_0^a}=E_a\ket{\phi_0^a}$	连续态$b$: $\hat H_0\ket{\phi_0^b}=E_b\ket{\phi_0^b}$
+
+$\hat H=\hat H_0+\hat V$, 	$\bra{\phi_0^a}\hat H\ket{\phi_0^a}=E_a,\bra{\phi_0^b}\hat H\ket{\phi_0^{b'}}=E_b\delta(E_{b'}-E_b),\bra{\phi_0^a}\hat H\ket{\phi_0^b}=V_b$
+
+$\hat H\ket\psi=E\ket\psi\implies \begin{cases}\alpha E_a+\int \dd E_b\beta_b V_b=E_a\\\alpha V_{b'}^*+\beta_{b'}E_{b'}=\beta_{b'}E\end{cases}$
+
+Fano-Dirac Ansatz	$\beta_{b'}=\frac{\alpha V_{b'}^*}{E-E_{b'}}+Z_E\delta(E-E_{b'})V_{b'}\alpha=\alpha V_{b'}^*\qty[\frac{1}{E-E_{b'}}+Z_E\delta(E-E_{b'})]$
+
+即$E_a+\int\dd E_b\frac{|V_b|^2}{E-E_b}+Z_E|V_E|^2=E$，积分项记为$F(E)$
+
+$\implies Z_E=\frac{E-(E_a+F(E))}{|V_E|^2}=\frac{E-E_R}{\frac{\pi\Gamma}2}=\pi\varepsilon$,  $\varepsilon=0$共振
+
+$\alpha=\frac{\sin\delta}{\pi V_E},\beta_{b'}=\frac{V_b}{\pi V_E}\frac{\sin\delta}{E-E_b}-\cos\delta \delta(E-E_{b'}),\tan\delta=-\frac{\pi}{2\varepsilon}$
+
+从而 $\ket{\psi(E)}=\frac{\sin\delta}{\pi V_E}\ket\phi-\cos\delta\ket{\phi_0^E},\quad \ket\phi=\ket{\phi_0^a}+\int\dd E_b\frac{V_b}{E-E_b}\ket{\phi_0^b}$
+
+$\bra{\psi(E)}H\ket{GS}=-\cos\delta\bra{\phi_0^a}H\ket{GS}+\frac{\sin\delta}{\pi V_E^*}\bra\phi H\ket{GS}$
+
+进而 $\frac{|\bra{\psi(E)}H\ket{GS}|^2}{|\bra{\phi_0^E}H\ket{GS}|^2}=(-\cos\delta+\frac{\sin\delta}{\pi V_E^*}\frac{\bra{\phi}H\ket{GS}}{\bra{\phi_0^E}H\ket{GS}})^2$，引入Fano q参数
+
+$\frac{|\bra{\psi(E)}H\ket{GS}|^2}{|\bra{\phi_0^E}H\ket{GS}|^2}=(-\cos\delta+q\sin\delta)^2=\frac{(\varepsilon+q)^2}{1+\varepsilon^2},\quad \varepsilon=\frac{E-E_R}{\frac{\pi\Gamma}2}$
