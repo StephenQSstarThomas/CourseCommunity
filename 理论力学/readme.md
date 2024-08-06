@@ -9,9 +9,13 @@
 ## 2023 Fall, taught by Prof.Xu Feng, notes uploaded by ጿ ኈ ቼ  ዽ ጿ ኈ ቼ  ዽ ጿ ኈ
 
 [理论力学A笔记_1.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_1.pdf)
+
 [理论力学A笔记_2.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_2.pdf)
+
 [理论力学A笔记_3.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_3.pdf)
+
 [理论力学A笔记_4.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_4.pdf)
+
 [理论力学A笔记_5.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_5.pdf)
 
 ## 2023 Fall, taught by Prof. Chuan Liu, notes uploaded by St.psalm

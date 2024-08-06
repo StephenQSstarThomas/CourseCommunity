@@ -28,6 +28,6 @@ with open(output_file, "w", encoding="utf-8") as f:
                 # 构建完整的URL
                 full_url = base_url + relative_path.replace(" ", "%20")
                 # 写入toc.md文件
-                f.write(f"[{file}]({full_url})\n")
+                f.write(f"\n[{file}]({full_url})\n")
 
 print(f"所有PDF文件的链接已写入 {output_file}")
