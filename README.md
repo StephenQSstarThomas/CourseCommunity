@@ -1,7 +1,7 @@
 # <p align="center"><img src='.assets/logo_v1.0.jpg'  width=500> </p>
 ## <p align="center" style="display:inline-block;"><font  face="Calisto MT"><font  size="3">📚 CourseCommunity: Undergraduate Courses Notes Platform</font></font></p>
 
-- 这是一个主要面向北大同学的课程笔记互助分享平台，目前笔记包括但不仅限于物理、中文、哲学、医学专业课，以及通选课等约20门课程的笔记
+- 这是一个主要面向北大同学的课程笔记互助分享平台，目前笔记包括但不仅限于物理、中文、哲学、医学专业课，以及通选课等约30门课程的笔记
 - 这个文件夹最终将包含各个课程的各类笔记，包含但不仅限于电子版课程笔记、自己做的答疑视频或者帖子链接等。
 - **项目网站：[Website](https://www.coursecommunity.com.cn)**
 - **项目导览及目录请参考：[Contents](toc.md)**
