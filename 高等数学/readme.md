@@ -16,8 +16,11 @@
 
 [高数 束琳_16-30.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/高数%20束琳/高数%20束琳_16-30.pdf)
 
-##
+## Answer and Lecture notes by Yantong Xie
 
+[xyt高数答案.pdf]()
+
+[xyt高数B讲义]()
 #### attention
  - Note 10__chap1--6
  - Note 11__chap7--10
