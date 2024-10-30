@@ -18,9 +18,8 @@
 
 ## Answer and Lecture notes by Yantong Xie
 
-[xyt高数答案.pdf]()
+xyt高数讲义详见相应目录文件
 
-[xyt高数B讲义]()
 #### attention
  - Note 10__chap1--6
  - Note 11__chap7--10
@@ -29,3 +28,5 @@
 #### 特别感谢22秋高数助教高驰肖和23春高数助教曾偲学长的贡献！！此处献给我们最好的cxgg和zcgg~
 
 ## Answer of Lecture Notes of Yantong Xie, uploaded by LBY
+
+[xyt高数答案.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数答案.pdf)

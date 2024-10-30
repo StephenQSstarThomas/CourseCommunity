@@ -1,57 +1,9 @@
 
+[期中复习.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/期中复习.pdf)
+
 ## .assets
 
 [CourseCommunity运营技术.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/.assets/CourseCommunity运营技术.pdf)
-
-## 高等数学
-
-[10_高数刷题册笔记 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/10_高数刷题册笔记%20仇是.pdf)
-
-[11_高数刷题册笔记 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/11_高数刷题册笔记%20仇是.pdf)
-
-[12_高数刷题册笔记 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/12_高数刷题册笔记%20仇是.pdf)
-
-[2023年春季高等数学A（二）习题课讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/2023年春季高等数学A（二）习题课讲义.pdf)
-
-## 高等数学
-
-[高数 束琳_1-15.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/高数%20束琳/高数%20束琳_1-15.pdf)
-
-[高数 束琳_16-30.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/高数%20束琳/高数%20束琳_16-30.pdf)
-
-## 理论力学
-
-[理力 课堂笔记 cx.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理力%20课堂笔记%20cx.pdf)
-
-[理论力学_fx(by_yy).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学_fx(by_yy).pdf)
-
-## 理论力学
-
-[第一章 基本原理概述.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第一章%20基本原理概述.pdf)
-
-[第三章 两体有心问题.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第三章%20两体有心问题.pdf)
-
-[第二章 变分原理和Largragen Equation.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第二章%20变分原理和Largragen%20Equation.pdf)
-
-[第五章 刚体运动方程.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第五章%20刚体运动方程.pdf)
-
-[第八章 哈密顿运动方程.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第八章%20哈密顿运动方程.pdf)
-
-[第六章 微幅震荡.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第六章%20微幅震荡.pdf)
-
-[第四章 刚体运动学.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第四章%20刚体运动学.pdf)
-
-## 理论力学
-
-[理论力学A笔记_1.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_1.pdf)
-
-[理论力学A笔记_2.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_2.pdf)
-
-[理论力学A笔记_3.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_3.pdf)
-
-[理论力学A笔记_4.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_4.pdf)
-
-[理论力学A笔记_5.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_5.pdf)
 
 ## 中国古代文学史三
 
@@ -61,137 +13,23 @@
 
 [中国考古学（中一）课程笔记.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/中国考古学（中一）/中国考古学（中一）课程笔记.pdf)
 
-## 电动力学
+## 中宏
 
-[电动力学lxj(by_yy).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/电动力学lxj(by_yy).pdf)
+[2023年春中宏笔记汇总版.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/中宏/2023年春中宏笔记汇总版.pdf)
 
-## 电动力学
+## 中级微观经济学
 
-## 电动力学
+[中级微观经济学-周黎安老师-大一下  电子版课程笔记  龙思成.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/中级微观经济学/中级微观经济学-周黎安老师-大一下%20%20电子版课程笔记%20%20龙思成.pdf)
 
-[Chapter IX 简单辐射系统；散射和衍射.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20IX%20简单辐射系统；散射和衍射.pdf)
+## 中经专
 
-[Chapter VI 随时间变化的场，麦克斯韦方程组，守恒定律.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20VI%20随时间变化的场，麦克斯韦方程组，守恒定律.pdf)
+[2023春中经专笔记.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/中经专/2023春中经专笔记.pdf)
 
-[Chapter VII 平面电磁波和波的传播.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20VII%20平面电磁波和波的传播.pdf)
+## 光学
 
-[Chapter VIII 波导和谐振腔.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20VIII%20波导和谐振腔.pdf)
-
-[Chapter XI  狭义相对论.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20XI%20%20狭义相对论.pdf)
-
-[Chapter XIV 运动电荷的辐射.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20XIV%20运动电荷的辐射.pdf)
-
-## 电动力学
-
-[第七章 电动力学.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第七章%20电动力学.pdf)
-
-[第三章 特殊技术.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第三章%20特殊技术.pdf)
-
-[第九章 电磁波.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第九章%20电磁波.pdf)
-
-[第五章 静磁学.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第五章%20静磁学.pdf)
-
-[第八章 守恒定律.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第八章%20守恒定律.pdf)
-
-[第六章 物质中的磁场.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第六章%20物质中的磁场.pdf)
-
-[第十一章 辐射.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第十一章%20辐射.pdf)
-
-[第十二章 电动力学与相对论.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第十二章%20电动力学与相对论.pdf)
-
-[第十章 势和场.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第十章%20势和场.pdf)
-
-[第四章 物质中的电场.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第四章%20物质中的电场.pdf)
-
-## 方言学
-
-[方言学课程笔记.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/方言学/方言学课程笔记.pdf)
-
-## 普物实验
-
-[介质中声速的测量 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/介质中声速的测量%20仇是.pdf)
-
-[光信息处理 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/光信息处理%20仇是.pdf)
-
-[光源的时间相干性.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/光源的时间相干性.pdf)
-
-[光衍射的定量研究 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/光衍射的定量研究%20仇是.pdf)
-
-[分光计报告模板.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/分光计报告模板.pdf)
-
-[弗兰克-赫兹实验 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/弗兰克-赫兹实验%20仇是.pdf)
-
-[弦上驻波.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/弦上驻波.pdf)
-
-[磁滞回线.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/磁滞回线.pdf)
-
-[虚拟仪器.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/虚拟仪器.pdf)
-
-[霍尔效应实验报告 仇是 .pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/霍尔效应实验报告%20仇是%20.pdf)
-
-[高温超导材料特性及低温温度计--仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/高温超导材料特性及低温温度计--仇是.pdf)
-
-## 普物实验
-
-[RLC电路的谐振现象.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验上-CarlosYang/RLC电路的谐振现象.pdf)
-
-[光衍射定量研究.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验上-CarlosYang/光衍射定量研究.pdf)
-
-[声速测量.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验上-CarlosYang/声速测量.pdf)
-
-[杨氏模量.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验上-CarlosYang/杨氏模量.pdf)
-
-[用示波器观测动态磁滞回线.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验上-CarlosYang/用示波器观测动态磁滞回线.pdf)
-
-## 普物实验
-
-[RLC_串联电路的暂态过程.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/RLC_串联电路的暂态过程.pdf)
-
-[三线摆.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/三线摆.pdf)
-
-[光信息处理.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/光信息处理.pdf)
-
-[光栅特性及测定光波波长.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/光栅特性及测定光波波长.pdf)
-
-[光源的时间相干性.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/光源的时间相干性.pdf)
-
-[动态法测定良导体的热导率.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/动态法测定良导体的热导率.pdf)
-
-[复摆实验.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/复摆实验.pdf)
-
-[弗兰克赫兹实验.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/弗兰克赫兹实验.pdf)
-
-[弦上驻波实验.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/弦上驻波实验.pdf)
-
-[虚拟仪器.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/虚拟仪器.pdf)
-
-## 通选课
-
-[14_四书精读.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/通选课/14_四书精读.pdf)
-
-[4_庄子精读笔记.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/通选课/4_庄子精读笔记.pdf)
-
-## 通选课
-
-[23地概笔记合并版.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/通选课/Introduction%20to%20Earthquakes/23地概笔记合并版.pdf)
-
-[5_地震概论 23春周五.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/通选课/Introduction%20to%20Earthquakes/5_地震概论%2023春周五.pdf)
-
-[大电影考点.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/通选课/Introduction%20to%20Earthquakes/大电影考点.pdf)
-
-## 群论2
-
-[群论2wyn(by_yy).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/群论2/群论2wyn(by_yy).pdf)
+[光学cheating paper.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/光学/光学cheating%20paper.pdf)
 
 ## 医学史
-
-## 马克思主义基本原理概论
-
-[马原复习 ——23秋.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/马克思主义基本原理概论/马原复习%20——23秋.pdf)
-
-## 基础医学导论
-
-## 基础医学导论
 
 ## 医学物理概论
 
@@ -199,63 +37,19 @@
 
 [medical_physics_review_midterm.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/医学物理概论/medical_physics_review_midterm.pdf)
 
-## 数学物理方法
+## 国际金融
 
-[dwz数理期末往年题自做.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/dwz数理期末往年题自做.pdf)
+[国际金融复习.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/国际金融/国际金融复习.pdf)
 
-[数理方法mbq(by_yy)_1-120.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理方法mbq(by_yy)_1-120.pdf)
+[国际金融笔记.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/国际金融/国际金融笔记.pdf)
 
-[数理方法mbq(by_yy)_121-249.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理方法mbq(by_yy)_121-249.pdf)
+## 基础医学导论
 
-[数理方法（上）dwz(1).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理方法（上）dwz(1).pdf)
+## 基础医学导论
 
-## 数学物理方法
+## 复变函数
 
-[数学物理方法讲义_1-2.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_1-2.pdf)
-
-[数学物理方法讲义_16-26.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_16-26.pdf)
-
-[数学物理方法讲义_3.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_3.pdf)
-
-[数学物理方法讲义_4.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_4.pdf)
-
-[数学物理方法讲义_5.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_5.pdf)
-
-[数学物理方法讲义_6.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_6.pdf)
-
-[数学物理方法讲义_7.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_7.pdf)
-
-[数学物理方法讲义_8-15.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_8-15.pdf)
-
-## 光学
-
-[光学cheating paper.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/光学/光学cheating%20paper.pdf)
-
-## 非线性物理专题
-
-[非线性物理专题 笔记v0.9 whl.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/非线性物理专题/非线性物理专题%20笔记v0.9%20whl.pdf)
-
-## 政治经济学原理
-
-[23FA-政经复习-New-to PKU.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/政治经济学原理/23FA-政经复习-New-to%20PKU.pdf)
-
-[24SP-ECON201-期末复习-to PKU.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/政治经济学原理/24SP-ECON201-期末复习-to%20PKU.pdf)
-
-## 量子力学
-
-[量子力学_cqh(by_yy).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/量子力学/量子力学_cqh(by_yy).pdf)
-
-## 社会人类学
-
-[社会人类学课程笔记.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/社会人类学/社会人类学课程笔记.pdf)
-
-## 死亡的社会学思考
-
-## 死亡的社会学思考
-
-## 量子力学专题
-
-[量子力学专题sj(by_yy).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/量子力学专题/量子力学专题sj(by_yy).pdf)
+[复变函数李智强24spring.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/复变函数/复变函数李智强24spring.pdf)
 
 ## 平衡态统计物理
 
@@ -371,10 +165,6 @@
 
 [平衡态统计物理pt4.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/平衡态统计物理/平统24lc/平衡态统计物理pt4.pdf)
 
-## 复变函数
-
-[复变函数李智强24spring.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/复变函数/复变函数李智强24spring.pdf)
-
 ## 微分流型与拓扑
 
 [微分流型与拓扑(实验班)刘毅23fall.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/微分流型与拓扑/微分流型与拓扑(实验班)刘毅23fall.pdf)
@@ -383,36 +173,340 @@
 
 [抽象代数(实验班)肖梁23fall.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/抽象代数/抽象代数(实验班)肖梁23fall.pdf)
 
+## 政治经济学原理
+
+[23FA-政经复习-New-to PKU.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/政治经济学原理/23FA-政经复习-New-to%20PKU.pdf)
+
+[24SP-ECON201-期末复习-to PKU.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/政治经济学原理/24SP-ECON201-期末复习-to%20PKU.pdf)
+
 ## 数学分析
 
 [数学分析I(实验班)杨诗武22fall.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学分析/数学分析I(实验班)杨诗武22fall.pdf)
 
 [数学分析III(实验班)杨诗武23fall.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学分析/数学分析III(实验班)杨诗武23fall.pdf)
 
-## 高等代数
+## 数学物理方法
 
-[高等代数I(实验班)安金鹏22fall.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等代数/高等代数I(实验班)安金鹏22fall.pdf)
+[dwz数理期末往年题自做.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/dwz数理期末往年题自做.pdf)
 
-## 中级微观经济学
+[数理方法mbq(by_yy)_1-120.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理方法mbq(by_yy)_1-120.pdf)
 
-[中级微观经济学-周黎安老师-大一下  电子版课程笔记  龙思成.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/中级微观经济学/中级微观经济学-周黎安老师-大一下%20%20电子版课程笔记%20%20龙思成.pdf)
+[数理方法mbq(by_yy)_121-249.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理方法mbq(by_yy)_121-249.pdf)
+
+[数理方法（上）dwz(1).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理方法（上）dwz(1).pdf)
+
+## 数学物理方法
+
+[数学物理方法讲义_1-2.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_1-2.pdf)
+
+[数学物理方法讲义_16-26.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_16-26.pdf)
+
+[数学物理方法讲义_3.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_3.pdf)
+
+[数学物理方法讲义_4.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_4.pdf)
+
+[数学物理方法讲义_5.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_5.pdf)
+
+[数学物理方法讲义_6.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_6.pdf)
+
+[数学物理方法讲义_7.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_7.pdf)
+
+[数学物理方法讲义_8-15.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数学物理方法/数理上%2024mbq/数学物理方法讲义_8-15.pdf)
 
 ## 数理方法专题
 
 [数理专题notes.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/数理方法专题/数理专题notes.pdf)
 
+## 方言学
+
+[方言学课程笔记.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/方言学/方言学课程笔记.pdf)
+
+## 普物实验
+
+[介质中声速的测量 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/介质中声速的测量%20仇是.pdf)
+
+[光信息处理 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/光信息处理%20仇是.pdf)
+
+[光源的时间相干性.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/光源的时间相干性.pdf)
+
+[光衍射的定量研究 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/光衍射的定量研究%20仇是.pdf)
+
+[分光计报告模板.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/分光计报告模板.pdf)
+
+[弗兰克-赫兹实验 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/弗兰克-赫兹实验%20仇是.pdf)
+
+[弦上驻波.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/弦上驻波.pdf)
+
+[磁滞回线.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/磁滞回线.pdf)
+
+[虚拟仪器.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/虚拟仪器.pdf)
+
+[霍尔效应实验报告 仇是 .pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/霍尔效应实验报告%20仇是%20.pdf)
+
+[高温超导材料特性及低温温度计--仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/高温超导材料特性及低温温度计--仇是.pdf)
+
+## 普物实验
+
+[RLC电路的谐振现象.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验上-CarlosYang/RLC电路的谐振现象.pdf)
+
+[光衍射定量研究.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验上-CarlosYang/光衍射定量研究.pdf)
+
+[声速测量.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验上-CarlosYang/声速测量.pdf)
+
+[杨氏模量.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验上-CarlosYang/杨氏模量.pdf)
+
+[用示波器观测动态磁滞回线.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验上-CarlosYang/用示波器观测动态磁滞回线.pdf)
+
+## 普物实验
+
+[RLC_串联电路的暂态过程.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/RLC_串联电路的暂态过程.pdf)
+
+[三线摆.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/三线摆.pdf)
+
+[光信息处理.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/光信息处理.pdf)
+
+[光栅特性及测定光波波长.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/光栅特性及测定光波波长.pdf)
+
+[光源的时间相干性.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/光源的时间相干性.pdf)
+
+[动态法测定良导体的热导率.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/动态法测定良导体的热导率.pdf)
+
+[复摆实验.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/复摆实验.pdf)
+
+[弗兰克赫兹实验.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/弗兰克赫兹实验.pdf)
+
+[弦上驻波实验.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/弦上驻波实验.pdf)
+
+[虚拟仪器.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/普物实验/普物实验下-CarosYang/虚拟仪器.pdf)
+
+## 死亡的社会学思考
+
+## 死亡的社会学思考
+
 ## 热学
 
 [热学_24春.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/热学/热学_24春.pdf)
+
+## 理论力学
+
+[理力 课堂笔记 cx.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理力%20课堂笔记%20cx.pdf)
+
+[理论力学_fx(by_yy).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学_fx(by_yy).pdf)
+
+## 理论力学
+
+[第一章 基本原理概述.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第一章%20基本原理概述.pdf)
+
+[第三章 两体有心问题.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第三章%20两体有心问题.pdf)
+
+[第二章 变分原理和Largragen Equation.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第二章%20变分原理和Largragen%20Equation.pdf)
+
+[第五章 刚体运动方程.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第五章%20刚体运动方程.pdf)
+
+[第八章 哈密顿运动方程.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第八章%20哈密顿运动方程.pdf)
+
+[第六章 微幅震荡.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第六章%20微幅震荡.pdf)
+
+[第四章 刚体运动学.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/23%20Fall%20lc/第四章%20刚体运动学.pdf)
+
+## 理论力学
+
+[理论力学A笔记_1.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_1.pdf)
+
+[理论力学A笔记_2.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_2.pdf)
+
+[理论力学A笔记_3.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_3.pdf)
+
+[理论力学A笔记_4.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_4.pdf)
+
+[理论力学A笔记_5.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/理论力学/理论力学%2023fx/理论力学A笔记_5.pdf)
+
+## 电动力学
+
+[电动力学lxj(by_yy).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/电动力学lxj(by_yy).pdf)
+
+## 电动力学
+
+## 电动力学
+
+[Chapter IX 简单辐射系统；散射和衍射.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20IX%20简单辐射系统；散射和衍射.pdf)
+
+[Chapter VI 随时间变化的场，麦克斯韦方程组，守恒定律.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20VI%20随时间变化的场，麦克斯韦方程组，守恒定律.pdf)
+
+[Chapter VII 平面电磁波和波的传播.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20VII%20平面电磁波和波的传播.pdf)
+
+[Chapter VIII 波导和谐振腔.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20VIII%20波导和谐振腔.pdf)
+
+[Chapter XI  狭义相对论.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20XI%20%20狭义相对论.pdf)
+
+[Chapter XIV 运动电荷的辐射.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学%20Jackson/Chapter%20XIV%20运动电荷的辐射.pdf)
+
+## 电动力学
+
+[第七章 电动力学.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第七章%20电动力学.pdf)
+
+[第三章 特殊技术.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第三章%20特殊技术.pdf)
+
+[第九章 电磁波.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第九章%20电磁波.pdf)
+
+[第五章 静磁学.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第五章%20静磁学.pdf)
+
+[第八章 守恒定律.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第八章%20守恒定律.pdf)
+
+[第六章 物质中的磁场.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第六章%20物质中的磁场.pdf)
+
+[第十一章 辐射.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第十一章%20辐射.pdf)
+
+[第十二章 电动力学与相对论.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第十二章%20电动力学与相对论.pdf)
+
+[第十章 势和场.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第十章%20势和场.pdf)
+
+[第四章 物质中的电场.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/电动力学/23Fall%20slj/电动力学Griffith/第四章%20物质中的电场.pdf)
+
+## 社会人类学
+
+[社会人类学课程笔记.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/社会人类学/社会人类学课程笔记.pdf)
+
+## 线性代数
+
+## 线性代数
+
+[蔓越莓的线性代数学习指南.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/线性代数/线代B/蔓越莓的线性代数学习指南.pdf)
+
+## 经济学原理
+
+## 群论2
+
+[群论2wyn(by_yy).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/群论2/群论2wyn(by_yy).pdf)
+
+## 计量经济学
+
+[计量经济学_张丹丹_笔记.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/计量经济学/计量经济学_张丹丹_笔记.pdf)
+
+## 货币银行学
+
+[货币银行学23秋笔记（期中前）.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/货币银行学/货币银行学23秋笔记（期中前）.pdf)
+
+[货币银行学（期中后）.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/货币银行学/货币银行学（期中后）.pdf)
+
+## 通选课
+
+[14_四书精读.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/通选课/14_四书精读.pdf)
+
+[4_庄子精读笔记.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/通选课/4_庄子精读笔记.pdf)
+
+## 通选课
+
+[23地概笔记合并版.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/通选课/Introduction%20to%20Earthquakes/23地概笔记合并版.pdf)
+
+[5_地震概论 23春周五.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/通选课/Introduction%20to%20Earthquakes/5_地震概论%2023春周五.pdf)
+
+[大电影考点.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/通选课/Introduction%20to%20Earthquakes/大电影考点.pdf)
+
+## 量子力学
+
+[量子力学_cqh(by_yy).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/量子力学/量子力学_cqh(by_yy).pdf)
 
 ## 量子力学II
 
 [QM2_All.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/量子力学II/QM2_All.pdf)
 
+## 量子力学专题
+
+[量子力学专题sj(by_yy).pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/量子力学专题/量子力学专题sj(by_yy).pdf)
+
 ## 量子场论
 
 [tsn_all.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/量子场论/tsn_all.pdf)
 
+## 非线性物理专题
+
+[非线性物理专题 笔记v0.9 whl.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/非线性物理专题/非线性物理专题%20笔记v0.9%20whl.pdf)
+
+## 马克思主义基本原理概论
+
+[马原复习 ——23秋.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/马克思主义基本原理概论/马原复习%20——23秋.pdf)
+
+## 高等代数
+
+[高等代数I(实验班)安金鹏22fall.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等代数/高等代数I(实验班)安金鹏22fall.pdf)
+
 ## 高等原子分子物理
 
 [高等原子分子物理_总.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等原子分子物理/高等原子分子物理_总.pdf)
+
+## 高等数学
+
+[10_高数刷题册笔记 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/10_高数刷题册笔记%20仇是.pdf)
+
+[11_高数刷题册笔记 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/11_高数刷题册笔记%20仇是.pdf)
+
+[12_高数刷题册笔记 仇是.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/12_高数刷题册笔记%20仇是.pdf)
+
+[2023年春季高等数学A（二）习题课讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/2023年春季高等数学A（二）习题课讲义.pdf)
+
+[xyt高数答案.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数答案.pdf)
+
+## 高等数学
+
+## 高等数学
+
+[不定积分讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/不定积分讲义.pdf)
+
+[函数极限讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/函数极限讲义.pdf)
+
+[函数的性质与作图讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/函数的性质与作图讲义.pdf)
+
+[多元函数微分学的应用讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/多元函数微分学的应用讲义.pdf)
+
+[多元函数微分学讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/多元函数微分学讲义.pdf)
+
+[定积分讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/定积分讲义.pdf)
+
+[导数讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/导数讲义.pdf)
+
+[序列极限讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/序列极限讲义.pdf)
+
+[微分中值定理讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/微分中值定理讲义.pdf)
+
+[洛必达法则和泰勒公式讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/洛必达法则和泰勒公式讲义.pdf)
+
+[解析几何讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/解析几何讲义.pdf)
+
+[连续函数讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/连续函数讲义.pdf)
+
+[预备知识讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B上/预备知识讲义.pdf)
+
+## 高等数学
+
+[三重积分讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/三重积分讲义.pdf)
+
+[二重积分讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/二重积分讲义.pdf)
+
+[傅里叶级数讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/傅里叶级数讲义.pdf)
+
+[函数项级数讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/函数项级数讲义.pdf)
+
+[含参变量积分讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/含参变量积分讲义.pdf)
+
+[常微分方程的一般理论讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/常微分方程的一般理论讲义.pdf)
+
+[常微分方程的解法讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/常微分方程的解法讲义.pdf)
+
+[幂级数讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/幂级数讲义.pdf)
+
+[数项级数讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/数项级数讲义.pdf)
+
+[无穷积分和瑕积分讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/无穷积分和瑕积分讲义.pdf)
+
+[曲线积分讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/曲线积分讲义.pdf)
+
+[曲面积分讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/曲面积分讲义.pdf)
+
+[重积分应用讲义.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/xyt高数B笔记/高数B下/重积分应用讲义.pdf)
+
+## 高等数学
+
+[高数 束琳_1-15.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/高数%20束琳/高数%20束琳_1-15.pdf)
+
+[高数 束琳_16-30.pdf](https://ghproxy.wjsphy.top/https://raw.githubusercontent.com/StephenQSstarThomas/Lecture-Notes/main/高等数学/高数%20束琳/高数%20束琳_16-30.pdf)
