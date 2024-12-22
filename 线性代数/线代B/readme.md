@@ -1,1 +1,1 @@
-### Notes uploaded by mym
+### Notes uploaded by mym & Jenny
